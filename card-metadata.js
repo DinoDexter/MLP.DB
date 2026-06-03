@@ -1,0 +1,4401 @@
+window.CARD_METADATA = {
+  "※BP01-CR01": {
+    "id": "※BP01-CR01",
+    "set": "BP01",
+    "rarity": "CR",
+    "name": "Twilight Sparkle",
+    "type": "character",
+    "cost": 4,
+    "archetypes": [
+      "Twilight Sparkle"
+    ],
+    "inspiration": 5,
+    "subtypes": [
+      "Unicorn",
+      "Twilight Sparkle"
+    ]
+  },
+  "※BP01-CR02": {
+    "id": "※BP01-CR02",
+    "set": "BP01",
+    "rarity": "CR",
+    "name": "Fluttershy",
+    "type": "character",
+    "cost": 3,
+    "archetypes": [
+      "Fluttershy"
+    ],
+    "inspiration": 4,
+    "subtypes": [
+      "Pegasus",
+      "Fluttershy"
+    ]
+  },
+  "※BP01-CR03": {
+    "id": "※BP01-CR03",
+    "set": "BP01",
+    "rarity": "CR",
+    "name": "Pinkie Pie",
+    "type": "character",
+    "cost": 3,
+    "archetypes": [
+      "Pinkie Pie"
+    ],
+    "inspiration": 3,
+    "subtypes": [
+      "Earth Pony",
+      "Pinkie Pie"
+    ]
+  },
+  "※BP01-CR04": {
+    "id": "※BP01-CR04",
+    "set": "BP01",
+    "rarity": "CR",
+    "name": "Applejack",
+    "type": "character",
+    "cost": 3,
+    "archetypes": [
+      "Applejack"
+    ],
+    "inspiration": 4,
+    "subtypes": [
+      "Earth Pony"
+    ]
+  },
+  "※BP01-CR05": {
+    "id": "※BP01-CR05",
+    "set": "BP01",
+    "rarity": "CR",
+    "name": "Rainbow Dash",
+    "type": "character",
+    "cost": 2,
+    "archetypes": [
+      "Rainbow Dash"
+    ],
+    "inspiration": 3,
+    "subtypes": [
+      "Rainbow Dash",
+      "Pegasus"
+    ]
+  },
+  "※BP01-CR06": {
+    "id": "※BP01-CR06",
+    "set": "BP01",
+    "rarity": "CR",
+    "name": "Rarity",
+    "type": "character",
+    "cost": 4,
+    "archetypes": [
+      "Rarity"
+    ],
+    "inspiration": 5,
+    "subtypes": [
+      "Unicorn",
+      "Rarity"
+    ]
+  },
+  "※BP01-CR07": {
+    "id": "※BP01-CR07",
+    "set": "BP01",
+    "rarity": "CR",
+    "name": "Twilight Sparkle",
+    "type": "character",
+    "cost": 2,
+    "archetypes": [
+      "Twilight Sparkle"
+    ],
+    "inspiration": 3,
+    "subtypes": [
+      "Unicorn",
+      "Twilight Sparkle"
+    ]
+  },
+  "※BP01-CR08": {
+    "id": "※BP01-CR08",
+    "set": "BP01",
+    "rarity": "CR",
+    "name": "Fluttershy",
+    "type": "character",
+    "cost": 3,
+    "archetypes": [
+      "Fluttershy"
+    ],
+    "inspiration": 5,
+    "subtypes": [
+      "Fluttershy",
+      "Pegasus"
+    ]
+  },
+  "※BP01-CR09": {
+    "id": "※BP01-CR09",
+    "set": "BP01",
+    "rarity": "CR",
+    "name": "Pinkie Pie",
+    "type": "character",
+    "cost": 5,
+    "archetypes": [
+      "Pinkie Pie"
+    ],
+    "inspiration": 6,
+    "subtypes": [
+      "Earth Pony",
+      "Pinkie Pie"
+    ]
+  },
+  "※BP01-CR10": {
+    "id": "※BP01-CR10",
+    "set": "BP01",
+    "rarity": "CR",
+    "name": "Applejack",
+    "type": "character",
+    "cost": 3,
+    "archetypes": [
+      "Applejack"
+    ],
+    "inspiration": 3,
+    "subtypes": [
+      "Earth Pony",
+      "Applejack"
+    ]
+  },
+  "※BP01-CR11": {
+    "id": "※BP01-CR11",
+    "set": "BP01",
+    "rarity": "CR",
+    "name": "Rainbow Dash",
+    "type": "character",
+    "cost": 4,
+    "archetypes": [
+      "Rainbow Dash"
+    ],
+    "inspiration": 5,
+    "subtypes": [
+      "Pegasus",
+      "Rainbow Dash"
+    ]
+  },
+  "※BP01-CR12": {
+    "id": "※BP01-CR12",
+    "set": "BP01",
+    "rarity": "CR",
+    "name": "Rarity",
+    "type": "character",
+    "cost": 2,
+    "archetypes": [
+      "Rarity"
+    ],
+    "inspiration": 4,
+    "subtypes": [
+      "Unicorn",
+      "Rarity"
+    ]
+  },
+  "※BP01-GR01": {
+    "id": "※BP01-GR01",
+    "set": "BP01",
+    "rarity": "GR",
+    "name": "Twilight Sparkle",
+    "type": "character",
+    "cost": 3,
+    "archetypes": [
+      "Twilight Sparkle"
+    ],
+    "inspiration": 5,
+    "subtypes": [
+      "Unicorn",
+      "Twilight Sparkle"
+    ]
+  },
+  "※BP01-GR02": {
+    "id": "※BP01-GR02",
+    "set": "BP01",
+    "rarity": "GR",
+    "name": "Fluttershy",
+    "type": "character",
+    "cost": 4,
+    "archetypes": [
+      "Fluttershy"
+    ],
+    "inspiration": 6,
+    "subtypes": [
+      "Pegasus",
+      "Fluttershy"
+    ]
+  },
+  "※BP01-GR03": {
+    "id": "※BP01-GR03",
+    "set": "BP01",
+    "rarity": "GR",
+    "name": "Pinkie Pie",
+    "type": "character",
+    "cost": 3,
+    "archetypes": [
+      "Pinkie Pie"
+    ],
+    "inspiration": 4,
+    "subtypes": [
+      "Pinkie Pie",
+      "Earth Pony"
+    ]
+  },
+  "※BP01-GR04": {
+    "id": "※BP01-GR04",
+    "set": "BP01",
+    "rarity": "GR",
+    "name": "Applejack",
+    "type": "character",
+    "cost": 4,
+    "archetypes": [
+      "Applejack"
+    ],
+    "inspiration": 6,
+    "subtypes": [
+      "Earth Pony",
+      "Applejack"
+    ]
+  },
+  "※BP01-GR05": {
+    "id": "※BP01-GR05",
+    "set": "BP01",
+    "rarity": "GR",
+    "name": "Rainbow Dash",
+    "type": "character",
+    "cost": 7,
+    "archetypes": [
+      "Rainbow Dash"
+    ],
+    "inspiration": 9,
+    "subtypes": [
+      "Rainbow Dash",
+      "Pegasus"
+    ]
+  },
+  "※BP01-GR06": {
+    "id": "※BP01-GR06",
+    "set": "BP01",
+    "rarity": "GR",
+    "name": "Rarity",
+    "type": "character",
+    "cost": 5,
+    "archetypes": [
+      "Rarity"
+    ],
+    "inspiration": 6,
+    "subtypes": [
+      "Rarity",
+      "Unicorn"
+    ]
+  },
+  "※BP01-RR01": {
+    "id": "※BP01-RR01",
+    "set": "BP01",
+    "rarity": "RR",
+    "name": "Twilight Sparkle",
+    "type": "main character"
+  },
+  "※BP01-RR02": {
+    "id": "※BP01-RR02",
+    "set": "BP01",
+    "rarity": "RR",
+    "name": "Fluttershy",
+    "type": "main character"
+  },
+  "※BP01-RR03": {
+    "id": "※BP01-RR03",
+    "set": "BP01",
+    "rarity": "RR",
+    "name": "Pinkie Pie",
+    "type": "main character"
+  },
+  "※BP01-RR04": {
+    "id": "※BP01-RR04",
+    "set": "BP01",
+    "rarity": "RR",
+    "name": "Applejack",
+    "type": "main character"
+  },
+  "※BP01-RR05": {
+    "id": "※BP01-RR05",
+    "set": "BP01",
+    "rarity": "RR",
+    "name": "Rainbow Dash",
+    "type": "main character"
+  },
+  "※BP01-RR06": {
+    "id": "※BP01-RR06",
+    "set": "BP01",
+    "rarity": "RR",
+    "name": "Rarity",
+    "type": "main character"
+  },
+  "※BP01-SPR01": {
+    "id": "※BP01-SPR01",
+    "set": "BP01",
+    "rarity": "SPR",
+    "name": "Sunlight in the Rain",
+    "type": "event",
+    "cost": 2,
+    "archetypes": [
+      "Rainbow Dash"
+    ]
+  },
+  "※BP01-SPR02": {
+    "id": "※BP01-SPR02",
+    "set": "BP01",
+    "rarity": "SPR",
+    "name": "Time for Clean-up!",
+    "type": "event",
+    "cost": 3
+  },
+  "※BP01-SPR03": {
+    "id": "※BP01-SPR03",
+    "set": "BP01",
+    "rarity": "SPR",
+    "name": "Deliver Letters",
+    "type": "event",
+    "cost": 1,
+    "archetypes": [
+      "Twilight Sparkle"
+    ]
+  },
+  "※BP01-SPR05": {
+    "id": "※BP01-SPR05",
+    "set": "BP01",
+    "rarity": "SPR",
+    "name": "Prepared to Go",
+    "type": "event",
+    "cost": 2,
+    "archetypes": [
+      "Pinkie Pie"
+    ]
+  },
+  "※BP01-SPR07": {
+    "id": "※BP01-SPR07",
+    "set": "BP01",
+    "rarity": "SPR",
+    "name": "Hair Curling",
+    "type": "event",
+    "cost": 2
+  },
+  "※BP01-SPR08": {
+    "id": "※BP01-SPR08",
+    "set": "BP01",
+    "rarity": "SPR",
+    "name": "Pillow Fight",
+    "type": "event",
+    "cost": 2
+  },
+  "※BP01-SPR09": {
+    "id": "※BP01-SPR09",
+    "set": "BP01",
+    "rarity": "SPR",
+    "name": "Rain Under the Roof",
+    "type": "event",
+    "cost": 3
+  },
+  "※BP01-SPR12": {
+    "id": "※BP01-SPR12",
+    "set": "BP01",
+    "rarity": "SPR",
+    "name": "Hoof Power Test",
+    "type": "event",
+    "cost": 3,
+    "archetypes": [
+      "Applejack"
+    ]
+  },
+  "※BP01-SPR13": {
+    "id": "※BP01-SPR13",
+    "set": "BP01",
+    "rarity": "SPR",
+    "name": "Tense Competition",
+    "type": "event",
+    "cost": 2,
+    "archetypes": [
+      "Fluttershy"
+    ]
+  },
+  "※BP01-SPR18": {
+    "id": "※BP01-SPR18",
+    "set": "BP01",
+    "rarity": "SPR",
+    "name": "Accidentally Burnt Book",
+    "type": "event",
+    "cost": 2
+  },
+  "※BP01-SPR21": {
+    "id": "※BP01-SPR21",
+    "set": "BP01",
+    "rarity": "SPR",
+    "name": "Found Scroll",
+    "type": "event",
+    "cost": 1,
+    "archetypes": [
+      "Twilight Sparkle"
+    ]
+  },
+  "※SD01-ER01-A1": {
+    "id": "※SD01-ER01-A1",
+    "set": "SD01",
+    "rarity": "ER",
+    "name": "Golden Oak Library",
+    "type": "scene"
+  },
+  "※SD01-ER01-A2": {
+    "id": "※SD01-ER01-A2",
+    "set": "SD01",
+    "rarity": "ER",
+    "name": "Golden Oak Library",
+    "type": "scene"
+  },
+  "※SD01-ER02-A1": {
+    "id": "※SD01-ER02-A1",
+    "set": "SD01",
+    "rarity": "ER",
+    "name": "Fluttershy's Cottage",
+    "type": "scene"
+  },
+  "※SD01-ER02-A2": {
+    "id": "※SD01-ER02-A2",
+    "set": "SD01",
+    "rarity": "ER",
+    "name": "Fluttershy's Cottage",
+    "type": "scene"
+  },
+  "※SD01-ER03-A1": {
+    "id": "※SD01-ER03-A1",
+    "set": "SD01",
+    "rarity": "ER",
+    "name": "Sugarcube Corner",
+    "type": "scene"
+  },
+  "※SD01-ER03-A2": {
+    "id": "※SD01-ER03-A2",
+    "set": "SD01",
+    "rarity": "ER",
+    "name": "Sugarcube Corner",
+    "type": "scene"
+  },
+  "※SD01-ER04-A1": {
+    "id": "※SD01-ER04-A1",
+    "set": "SD01",
+    "rarity": "ER",
+    "name": "Sweet Apple Acres",
+    "type": "scene"
+  },
+  "※SD01-ER04-A2": {
+    "id": "※SD01-ER04-A2",
+    "set": "SD01",
+    "rarity": "ER",
+    "name": "Sweet Apple Acres",
+    "type": "scene"
+  },
+  "※SD01-ER05-A1": {
+    "id": "※SD01-ER05-A1",
+    "set": "SD01",
+    "rarity": "ER",
+    "name": "Cloudominium",
+    "type": "scene"
+  },
+  "※SD01-ER05-A2": {
+    "id": "※SD01-ER05-A2",
+    "set": "SD01",
+    "rarity": "ER",
+    "name": "Cloudominium",
+    "type": "scene"
+  },
+  "※SD01-ER06-A1": {
+    "id": "※SD01-ER06-A1",
+    "set": "SD01",
+    "rarity": "ER",
+    "name": "Carousel Boutique",
+    "type": "scene"
+  },
+  "※SD01-ER06-A2": {
+    "id": "※SD01-ER06-A2",
+    "set": "SD01",
+    "rarity": "ER",
+    "name": "Carousel Boutique",
+    "type": "scene"
+  },
+  "※SD01-ER07-A1": {
+    "id": "※SD01-ER07-A1",
+    "set": "SD01",
+    "rarity": "ER",
+    "name": "Canterlot Tower",
+    "type": "scene"
+  },
+  "※SD01-ER07-A2": {
+    "id": "※SD01-ER07-A2",
+    "set": "SD01",
+    "rarity": "ER",
+    "name": "Canterlot Tower",
+    "type": "scene"
+  },
+  "※SD01-ER08-A1": {
+    "id": "※SD01-ER08-A1",
+    "set": "SD01",
+    "rarity": "ER",
+    "name": "Ponyville Suburb",
+    "type": "scene"
+  },
+  "※SD01-ER08-A2": {
+    "id": "※SD01-ER08-A2",
+    "set": "SD01",
+    "rarity": "ER",
+    "name": "Ponyville Suburb",
+    "type": "scene"
+  },
+  "※SD01-ER09-A1": {
+    "id": "※SD01-ER09-A1",
+    "set": "SD01",
+    "rarity": "ER",
+    "name": "Ponyville Street",
+    "type": "scene"
+  },
+  "※SD01-ER09-A2": {
+    "id": "※SD01-ER09-A2",
+    "set": "SD01",
+    "rarity": "ER",
+    "name": "Ponyville Street",
+    "type": "scene"
+  },
+  "※SD01-ER10-A1": {
+    "id": "※SD01-ER10-A1",
+    "set": "SD01",
+    "rarity": "ER",
+    "name": "Road at Sweet Apple Acres",
+    "type": "scene"
+  },
+  "※SD01-ER10-A2": {
+    "id": "※SD01-ER10-A2",
+    "set": "SD01",
+    "rarity": "ER",
+    "name": "Road at Sweet Apple Acres",
+    "type": "scene"
+  },
+  "※SD01-ER11-A1": {
+    "id": "※SD01-ER11-A1",
+    "set": "SD01",
+    "rarity": "ER",
+    "name": "Stairs of Cloudsdale",
+    "type": "scene"
+  },
+  "※SD01-ER11-A2": {
+    "id": "※SD01-ER11-A2",
+    "set": "SD01",
+    "rarity": "ER",
+    "name": "Stairs of Cloudsdale",
+    "type": "scene"
+  },
+  "※SD01-ER12-A1": {
+    "id": "※SD01-ER12-A1",
+    "set": "SD01",
+    "rarity": "ER",
+    "name": "Manehattan Streets",
+    "type": "scene"
+  },
+  "※SD01-ER12-A2": {
+    "id": "※SD01-ER12-A2",
+    "set": "SD01",
+    "rarity": "ER",
+    "name": "Manehattan Streets",
+    "type": "scene"
+  },
+  "※SD01-RR01": {
+    "id": "※SD01-RR01",
+    "set": "SD01",
+    "rarity": "RR",
+    "name": "Twilight Sparkle",
+    "type": "main character"
+  },
+  "※SD01-RR02": {
+    "id": "※SD01-RR02",
+    "set": "SD01",
+    "rarity": "RR",
+    "name": "Fluttershy",
+    "type": "main character"
+  },
+  "※SD01-RR03": {
+    "id": "※SD01-RR03",
+    "set": "SD01",
+    "rarity": "RR",
+    "name": "Pinkie Pie",
+    "type": "main character"
+  },
+  "※SD01-RR04": {
+    "id": "※SD01-RR04",
+    "set": "SD01",
+    "rarity": "RR",
+    "name": "Applejack",
+    "type": "main character"
+  },
+  "※SD01-RR05": {
+    "id": "※SD01-RR05",
+    "set": "SD01",
+    "rarity": "RR",
+    "name": "Rainbow Dash",
+    "type": "main character"
+  },
+  "※SD01-RR06": {
+    "id": "※SD01-RR06",
+    "set": "SD01",
+    "rarity": "RR",
+    "name": "Rarity",
+    "type": "main character"
+  },
+  "BP01-C01": {
+    "id": "BP01-C01",
+    "set": "BP01",
+    "rarity": "C",
+    "name": "Twilight Sparkle",
+    "type": "character",
+    "cost": 2,
+    "archetypes": [
+      "Twilight Sparkle"
+    ],
+    "inspiration": 3,
+    "subtypes": [
+      "Unicorn",
+      "Twilight Sparkle"
+    ]
+  },
+  "BP01-C02": {
+    "id": "BP01-C02",
+    "set": "BP01",
+    "rarity": "C",
+    "name": "Twilight Sparkle",
+    "type": "character",
+    "cost": 4,
+    "archetypes": [
+      "Twilight Sparkle"
+    ],
+    "inspiration": 5,
+    "subtypes": [
+      "Twilight Sparkle",
+      "Unicorn"
+    ]
+  },
+  "BP01-C03": {
+    "id": "BP01-C03",
+    "set": "BP01",
+    "rarity": "C",
+    "name": "Twilight Sparkle",
+    "type": "character",
+    "cost": 7,
+    "archetypes": [
+      "Twilight Sparkle"
+    ],
+    "inspiration": 9,
+    "subtypes": [
+      "Unicorn",
+      "Twilight Sparkle"
+    ]
+  },
+  "BP01-C04": {
+    "id": "BP01-C04",
+    "set": "BP01",
+    "rarity": "C",
+    "name": "Fluttershy",
+    "type": "character",
+    "cost": 3,
+    "archetypes": [
+      "Fluttershy"
+    ],
+    "inspiration": 4,
+    "subtypes": [
+      "Pegasus",
+      "Fluttershy"
+    ]
+  },
+  "BP01-C05": {
+    "id": "BP01-C05",
+    "set": "BP01",
+    "rarity": "C",
+    "name": "Fluttershy",
+    "type": "character",
+    "cost": 6,
+    "archetypes": [
+      "Fluttershy"
+    ],
+    "inspiration": 8,
+    "subtypes": [
+      "Pegasus",
+      "Fluttershy"
+    ]
+  },
+  "BP01-C06": {
+    "id": "BP01-C06",
+    "set": "BP01",
+    "rarity": "C",
+    "name": "Pinkie Pie",
+    "type": "character",
+    "cost": 3,
+    "archetypes": [
+      "Pinkie Pie"
+    ],
+    "inspiration": 4,
+    "subtypes": [
+      "Earth Pony",
+      "Pinkie Pie"
+    ]
+  },
+  "BP01-C07": {
+    "id": "BP01-C07",
+    "set": "BP01",
+    "rarity": "C",
+    "name": "Pinkie Pie",
+    "type": "character",
+    "cost": 1,
+    "archetypes": [
+      "Pinkie Pie"
+    ],
+    "inspiration": 2,
+    "subtypes": [
+      "Pinkie Pie",
+      "Earth Pony"
+    ]
+  },
+  "BP01-C08": {
+    "id": "BP01-C08",
+    "set": "BP01",
+    "rarity": "C",
+    "name": "Applejack",
+    "type": "character",
+    "cost": 6,
+    "archetypes": [
+      "Applejack"
+    ],
+    "inspiration": 8,
+    "subtypes": [
+      "Earth Pony",
+      "Applejack"
+    ]
+  },
+  "BP01-C09": {
+    "id": "BP01-C09",
+    "set": "BP01",
+    "rarity": "C",
+    "name": "Applejack",
+    "type": "character",
+    "cost": 3,
+    "archetypes": [
+      "Applejack"
+    ],
+    "inspiration": 4,
+    "subtypes": [
+      "Applejack",
+      "Earth Pony"
+    ]
+  },
+  "BP01-C10": {
+    "id": "BP01-C10",
+    "set": "BP01",
+    "rarity": "C",
+    "name": "Rainbow Dash",
+    "type": "character",
+    "cost": 4,
+    "archetypes": [
+      "Rainbow Dash"
+    ],
+    "inspiration": 5,
+    "subtypes": [
+      "Pegasus",
+      "Rainbow Dash"
+    ]
+  },
+  "BP01-C11": {
+    "id": "BP01-C11",
+    "set": "BP01",
+    "rarity": "C",
+    "name": "Rainbow Dash",
+    "type": "character",
+    "cost": 5,
+    "archetypes": [
+      "Rainbow Dash"
+    ],
+    "inspiration": 7,
+    "subtypes": [
+      "Rainbow Dash",
+      "Pegasus"
+    ]
+  },
+  "BP01-C12": {
+    "id": "BP01-C12",
+    "set": "BP01",
+    "rarity": "C",
+    "name": "Rarity",
+    "type": "character",
+    "cost": 5,
+    "archetypes": [
+      "Rarity"
+    ],
+    "inspiration": 6,
+    "subtypes": [
+      "Rarity",
+      "Unicorn"
+    ]
+  },
+  "BP01-C13": {
+    "id": "BP01-C13",
+    "set": "BP01",
+    "rarity": "C",
+    "name": "Rarity",
+    "type": "character",
+    "cost": 6,
+    "archetypes": [
+      "Rarity"
+    ],
+    "inspiration": 8,
+    "subtypes": [
+      "Unicorn",
+      "Rarity"
+    ]
+  },
+  "BP01-C14": {
+    "id": "BP01-C14",
+    "set": "BP01",
+    "rarity": "C",
+    "name": "Spike",
+    "type": "character",
+    "cost": 2,
+    "archetypes": [
+      "Twilight Sparkle"
+    ],
+    "inspiration": 3,
+    "subtypes": [
+      "Dragon",
+      "Spike"
+    ]
+  },
+  "BP01-C15": {
+    "id": "BP01-C15",
+    "set": "BP01",
+    "rarity": "C",
+    "name": "Apple Bloom",
+    "type": "character",
+    "cost": 1,
+    "inspiration": 2,
+    "subtypes": [
+      "Earth Pony",
+      "Apple Bloom"
+    ]
+  },
+  "BP01-C16": {
+    "id": "BP01-C16",
+    "set": "BP01",
+    "rarity": "C",
+    "name": "Sweetie Belle",
+    "type": "character",
+    "cost": 1,
+    "inspiration": 2,
+    "subtypes": [
+      "Unicorn",
+      "Sweetie Belle"
+    ]
+  },
+  "BP01-C17": {
+    "id": "BP01-C17",
+    "set": "BP01",
+    "rarity": "C",
+    "name": "Sootaloo",
+    "type": "character",
+    "cost": 1,
+    "inspiration": 2,
+    "subtypes": [
+      "Pegasus",
+      "Scootaloo"
+    ]
+  },
+  "BP01-C18": {
+    "id": "BP01-C18",
+    "set": "BP01",
+    "rarity": "C",
+    "name": "Big McIntosh",
+    "type": "character",
+    "cost": 2,
+    "inspiration": 3,
+    "subtypes": [
+      "Earth Pony",
+      "Big McIntosh"
+    ]
+  },
+  "BP01-C19": {
+    "id": "BP01-C19",
+    "set": "BP01",
+    "rarity": "C",
+    "name": "Granny Smith",
+    "type": "character",
+    "cost": 5,
+    "inspiration": 6,
+    "subtypes": [
+      "Earth Pony",
+      "Granny Smith"
+    ]
+  },
+  "BP01-C20": {
+    "id": "BP01-C20",
+    "set": "BP01",
+    "rarity": "C",
+    "name": "Trixie",
+    "type": "character",
+    "cost": 1,
+    "inspiration": 2,
+    "subtypes": [
+      "Unicorn"
+    ]
+  },
+  "BP01-C21": {
+    "id": "BP01-C21",
+    "set": "BP01",
+    "rarity": "C",
+    "name": "Gilda",
+    "type": "character",
+    "cost": 5,
+    "inspiration": 5,
+    "subtypes": [
+      "gilds",
+      "griffon"
+    ]
+  },
+  "BP01-C22": {
+    "id": "BP01-C22",
+    "set": "BP01",
+    "rarity": "C",
+    "name": "Diamond Tiara",
+    "type": "character",
+    "cost": 1,
+    "inspiration": 1,
+    "subtypes": [
+      "Earth Pony",
+      "Diamond Tiara"
+    ]
+  },
+  "BP01-C23": {
+    "id": "BP01-C23",
+    "set": "BP01",
+    "rarity": "C",
+    "name": "Silver Spoon",
+    "type": "character",
+    "cost": 7,
+    "inspiration": 9,
+    "subtypes": [
+      "Earth Pony",
+      "Silver Spoon"
+    ]
+  },
+  "BP01-C24": {
+    "id": "BP01-C24",
+    "set": "BP01",
+    "rarity": "C",
+    "name": "Mayor Mare",
+    "type": "character",
+    "cost": 2,
+    "inspiration": 4,
+    "subtypes": [
+      "Earth Pony",
+      "Mayor Mare"
+    ]
+  },
+  "BP01-C25": {
+    "id": "BP01-C25",
+    "set": "BP01",
+    "rarity": "C",
+    "name": "The Ticket Master",
+    "type": "story"
+  },
+  "BP01-C26": {
+    "id": "BP01-C26",
+    "set": "BP01",
+    "rarity": "C",
+    "name": "The Ticket Master",
+    "type": "story"
+  },
+  "BP01-C27": {
+    "id": "BP01-C27",
+    "set": "BP01",
+    "rarity": "C",
+    "name": "The Ticket Master",
+    "type": "story"
+  },
+  "BP01-C28": {
+    "id": "BP01-C28",
+    "set": "BP01",
+    "rarity": "C",
+    "name": "The Ticket Master",
+    "type": "story"
+  },
+  "BP01-C29": {
+    "id": "BP01-C29",
+    "set": "BP01",
+    "rarity": "C",
+    "name": "Curing Philomena",
+    "type": "story"
+  },
+  "BP01-C30": {
+    "id": "BP01-C30",
+    "set": "BP01",
+    "rarity": "C",
+    "name": "Curing Philomena",
+    "type": "story"
+  },
+  "BP01-C31": {
+    "id": "BP01-C31",
+    "set": "BP01",
+    "rarity": "C",
+    "name": "Curing Philomena",
+    "type": "story"
+  },
+  "BP01-C32": {
+    "id": "BP01-C32",
+    "set": "BP01",
+    "rarity": "C",
+    "name": "Curing Philomena",
+    "type": "story"
+  },
+  "BP01-C33": {
+    "id": "BP01-C33",
+    "set": "BP01",
+    "rarity": "C",
+    "name": "Party of One",
+    "type": "story"
+  },
+  "BP01-C34": {
+    "id": "BP01-C34",
+    "set": "BP01",
+    "rarity": "C",
+    "name": "Party of One",
+    "type": "story"
+  },
+  "BP01-C35": {
+    "id": "BP01-C35",
+    "set": "BP01",
+    "rarity": "C",
+    "name": "Party of One",
+    "type": "story"
+  },
+  "BP01-C36": {
+    "id": "BP01-C36",
+    "set": "BP01",
+    "rarity": "C",
+    "name": "Party of One",
+    "type": "story"
+  },
+  "BP01-C37": {
+    "id": "BP01-C37",
+    "set": "BP01",
+    "rarity": "C",
+    "name": "Over a Barrel",
+    "type": "story"
+  },
+  "BP01-C38": {
+    "id": "BP01-C38",
+    "set": "BP01",
+    "rarity": "C",
+    "name": "Over a Barrel",
+    "type": "story"
+  },
+  "BP01-C39": {
+    "id": "BP01-C39",
+    "set": "BP01",
+    "rarity": "C",
+    "name": "Over a Barrel",
+    "type": "story"
+  },
+  "BP01-C40": {
+    "id": "BP01-C40",
+    "set": "BP01",
+    "rarity": "C",
+    "name": "Over a Barrel",
+    "type": "story"
+  },
+  "BP01-C41": {
+    "id": "BP01-C41",
+    "set": "BP01",
+    "rarity": "C",
+    "name": "Griffon the Brush Off",
+    "type": "story"
+  },
+  "BP01-C42": {
+    "id": "BP01-C42",
+    "set": "BP01",
+    "rarity": "C",
+    "name": "Griffon the Brush Off",
+    "type": "story"
+  },
+  "BP01-C43": {
+    "id": "BP01-C43",
+    "set": "BP01",
+    "rarity": "C",
+    "name": "Griffon the Brush Off",
+    "type": "story"
+  },
+  "BP01-C44": {
+    "id": "BP01-C44",
+    "set": "BP01",
+    "rarity": "C",
+    "name": "Griffon the Brush Off",
+    "type": "story"
+  },
+  "BP01-C45": {
+    "id": "BP01-C45",
+    "set": "BP01",
+    "rarity": "C",
+    "name": "Suited For Success",
+    "type": "story"
+  },
+  "BP01-C46": {
+    "id": "BP01-C46",
+    "set": "BP01",
+    "rarity": "C",
+    "name": "Suited For Success",
+    "type": "story"
+  },
+  "BP01-C47": {
+    "id": "BP01-C47",
+    "set": "BP01",
+    "rarity": "C",
+    "name": "Suited For Success",
+    "type": "story"
+  },
+  "BP01-C48": {
+    "id": "BP01-C48",
+    "set": "BP01",
+    "rarity": "C",
+    "name": "Suited For Success",
+    "type": "story"
+  },
+  "BP01-CR01": {
+    "id": "BP01-CR01",
+    "set": "BP01",
+    "rarity": "CR",
+    "name": "Twilight Sparkle",
+    "type": "character",
+    "cost": 4,
+    "archetypes": [
+      "Twilight Sparkle"
+    ],
+    "inspiration": 5,
+    "subtypes": [
+      "Unicorn",
+      "Twilight Sparkle"
+    ]
+  },
+  "BP01-CR02": {
+    "id": "BP01-CR02",
+    "set": "BP01",
+    "rarity": "CR",
+    "name": "Fluttershy",
+    "type": "character",
+    "cost": 3,
+    "archetypes": [
+      "Fluttershy"
+    ],
+    "inspiration": 4,
+    "subtypes": [
+      "Pegasus",
+      "Fluttershy"
+    ]
+  },
+  "BP01-CR03": {
+    "id": "BP01-CR03",
+    "set": "BP01",
+    "rarity": "CR",
+    "name": "Pinkie Pie",
+    "type": "character",
+    "cost": 2,
+    "archetypes": [
+      "Pinkie Pie"
+    ],
+    "inspiration": 3,
+    "subtypes": [
+      "Earth Pony",
+      "Pinkie Pie"
+    ]
+  },
+  "BP01-CR04": {
+    "id": "BP01-CR04",
+    "set": "BP01",
+    "rarity": "CR",
+    "name": "Applejack",
+    "type": "character",
+    "cost": 3,
+    "archetypes": [
+      "Applejack"
+    ],
+    "inspiration": 4,
+    "subtypes": [
+      "Earth Pony",
+      "Applejack"
+    ]
+  },
+  "BP01-CR05": {
+    "id": "BP01-CR05",
+    "set": "BP01",
+    "rarity": "CR",
+    "name": "Rainbow Dash",
+    "type": "character",
+    "cost": 2,
+    "archetypes": [
+      "Rainbow Dash"
+    ],
+    "inspiration": 3,
+    "subtypes": [
+      "Pegasus",
+      "Rainbow Dash"
+    ]
+  },
+  "BP01-CR06": {
+    "id": "BP01-CR06",
+    "set": "BP01",
+    "rarity": "CR",
+    "name": "Rarity",
+    "type": "character",
+    "cost": 4,
+    "archetypes": [
+      "Rarity"
+    ],
+    "inspiration": 5,
+    "subtypes": [
+      "Unicorn",
+      "Rarity"
+    ]
+  },
+  "BP01-CR07": {
+    "id": "BP01-CR07",
+    "set": "BP01",
+    "rarity": "CR",
+    "name": "Twilight Sparkle",
+    "type": "character",
+    "cost": 2,
+    "archetypes": [
+      "Twilight Sparkle"
+    ],
+    "inspiration": 3,
+    "subtypes": [
+      "Unicorn",
+      "Twilight Sparkle"
+    ]
+  },
+  "BP01-CR08": {
+    "id": "BP01-CR08",
+    "set": "BP01",
+    "rarity": "CR",
+    "name": "Fluttershy",
+    "type": "character",
+    "cost": 3,
+    "archetypes": [
+      "Fluttershy"
+    ],
+    "inspiration": 5,
+    "subtypes": [
+      "Fluttershy",
+      "Pegasus"
+    ]
+  },
+  "BP01-CR09": {
+    "id": "BP01-CR09",
+    "set": "BP01",
+    "rarity": "CR",
+    "name": "Pinkie Pie",
+    "type": "character",
+    "cost": 5,
+    "archetypes": [
+      "Pinkie Pie"
+    ],
+    "inspiration": 6,
+    "subtypes": [
+      "Earth Pony",
+      "Pinkie Pie"
+    ]
+  },
+  "BP01-CR10": {
+    "id": "BP01-CR10",
+    "set": "BP01",
+    "rarity": "CR",
+    "name": "Applejack",
+    "type": "character",
+    "cost": 3,
+    "archetypes": [
+      "Applejack"
+    ],
+    "inspiration": 3,
+    "subtypes": [
+      "Earth Pony",
+      "Applejack"
+    ]
+  },
+  "BP01-CR11": {
+    "id": "BP01-CR11",
+    "set": "BP01",
+    "rarity": "CR",
+    "name": "Rainbow Dash",
+    "type": "character",
+    "cost": 4,
+    "archetypes": [
+      "Rainbow Dash"
+    ],
+    "inspiration": 5,
+    "subtypes": [
+      "Pegasus",
+      "Rainbow Dash"
+    ]
+  },
+  "BP01-CR12": {
+    "id": "BP01-CR12",
+    "set": "BP01",
+    "rarity": "CR",
+    "name": "Rarity",
+    "type": "character",
+    "cost": 2,
+    "archetypes": [
+      "Rarity"
+    ],
+    "inspiration": 4,
+    "subtypes": [
+      "Rarity",
+      "Unicorn"
+    ]
+  },
+  "BP01-GR01": {
+    "id": "BP01-GR01",
+    "set": "BP01",
+    "rarity": "GR",
+    "name": "Twilight Sparkle",
+    "type": "character",
+    "cost": 3,
+    "archetypes": [
+      "Twilight Sparkle"
+    ],
+    "inspiration": 5,
+    "subtypes": [
+      "Unicorn",
+      "Twilight Sparkle"
+    ]
+  },
+  "BP01-GR02": {
+    "id": "BP01-GR02",
+    "set": "BP01",
+    "rarity": "GR",
+    "name": "Fluttershy",
+    "type": "character",
+    "cost": 4,
+    "archetypes": [
+      "Fluttershy"
+    ],
+    "inspiration": 6,
+    "subtypes": [
+      "Pegasus",
+      "Fluttershy"
+    ]
+  },
+  "BP01-GR03": {
+    "id": "BP01-GR03",
+    "set": "BP01",
+    "rarity": "GR",
+    "name": "Pinkie Pie",
+    "type": "character",
+    "cost": 3,
+    "archetypes": [
+      "Pinkie Pie"
+    ],
+    "inspiration": 4,
+    "subtypes": [
+      "Earth Pony",
+      "Pinkie Pie"
+    ]
+  },
+  "BP01-GR04": {
+    "id": "BP01-GR04",
+    "set": "BP01",
+    "rarity": "GR",
+    "name": "Applejack",
+    "type": "character",
+    "cost": 4,
+    "archetypes": [
+      "Applejack"
+    ],
+    "inspiration": 6,
+    "subtypes": [
+      "Applejack",
+      "Earth Pony"
+    ]
+  },
+  "BP01-GR05": {
+    "id": "BP01-GR05",
+    "set": "BP01",
+    "rarity": "GR",
+    "name": "Rainbow Dash",
+    "type": "character",
+    "cost": 7,
+    "archetypes": [
+      "Rainbow Dash"
+    ],
+    "inspiration": 9,
+    "subtypes": [
+      "Pegasus",
+      "Rainbow Dash"
+    ]
+  },
+  "BP01-GR06": {
+    "id": "BP01-GR06",
+    "set": "BP01",
+    "rarity": "GR",
+    "name": "Rarity",
+    "type": "character",
+    "cost": 5,
+    "archetypes": [
+      "Rarity"
+    ],
+    "inspiration": 6,
+    "subtypes": [
+      "Unicorn",
+      "Rarity"
+    ]
+  },
+  "BP01-GR07": {
+    "id": "BP01-GR07",
+    "set": "BP01",
+    "rarity": "GR",
+    "name": "Twilight Sparkle",
+    "type": "character",
+    "cost": 4,
+    "archetypes": [
+      "Twilight Sparkle"
+    ],
+    "inspiration": 5,
+    "subtypes": [
+      "Unicorn",
+      "Twilight Sparkle"
+    ]
+  },
+  "BP01-GR08": {
+    "id": "BP01-GR08",
+    "set": "BP01",
+    "rarity": "GR",
+    "name": "Fluttershy",
+    "type": "character",
+    "cost": 2,
+    "archetypes": [
+      "Fluttershy"
+    ],
+    "inspiration": 3,
+    "subtypes": [
+      "Fluttershy",
+      "Pegasus"
+    ]
+  },
+  "BP01-GR09": {
+    "id": "BP01-GR09",
+    "set": "BP01",
+    "rarity": "GR",
+    "name": "Pinkie Pie",
+    "type": "character",
+    "cost": 2,
+    "archetypes": [
+      "Pinkie Pie"
+    ],
+    "inspiration": 3,
+    "subtypes": [
+      "Earth Pony",
+      "Pinkie Pie"
+    ]
+  },
+  "BP01-GR10": {
+    "id": "BP01-GR10",
+    "set": "BP01",
+    "rarity": "GR",
+    "name": "Applejack",
+    "type": "character",
+    "cost": 4,
+    "archetypes": [
+      "Applejack"
+    ],
+    "inspiration": 5,
+    "subtypes": [
+      "Earth Pony",
+      "Applejack"
+    ]
+  },
+  "BP01-GR11": {
+    "id": "BP01-GR11",
+    "set": "BP01",
+    "rarity": "GR",
+    "name": "Rainbow Dash",
+    "type": "character",
+    "cost": 2,
+    "archetypes": [
+      "Rainbow Dash"
+    ],
+    "inspiration": 3,
+    "subtypes": [
+      "Pegasus",
+      "Rainbow Dash"
+    ]
+  },
+  "BP01-GR12": {
+    "id": "BP01-GR12",
+    "set": "BP01",
+    "rarity": "GR",
+    "name": "Rarity",
+    "type": "character",
+    "cost": 5,
+    "archetypes": [
+      "Rarity"
+    ],
+    "inspiration": 6,
+    "subtypes": [
+      "Unicorn",
+      "Rarity"
+    ]
+  },
+  "BP01-RR01": {
+    "id": "BP01-RR01",
+    "set": "BP01",
+    "rarity": "RR",
+    "name": "Twilight Sparkle",
+    "type": "main character"
+  },
+  "BP01-RR02": {
+    "id": "BP01-RR02",
+    "set": "BP01",
+    "rarity": "RR",
+    "name": "Fluttershy",
+    "type": "main character"
+  },
+  "BP01-RR03": {
+    "id": "BP01-RR03",
+    "set": "BP01",
+    "rarity": "RR",
+    "name": "Pinkie Pie",
+    "type": "main character"
+  },
+  "BP01-RR04": {
+    "id": "BP01-RR04",
+    "set": "BP01",
+    "rarity": "RR",
+    "name": "Applejack",
+    "type": "main character"
+  },
+  "BP01-RR05": {
+    "id": "BP01-RR05",
+    "set": "BP01",
+    "rarity": "RR",
+    "name": "Rainbow Dash",
+    "type": "main character"
+  },
+  "BP01-RR06": {
+    "id": "BP01-RR06",
+    "set": "BP01",
+    "rarity": "RR",
+    "name": "Rarity",
+    "type": "main character"
+  },
+  "BP01-SPR01": {
+    "id": "BP01-SPR01",
+    "set": "BP01",
+    "rarity": "SPR",
+    "name": "Sunlight in the Rain",
+    "type": "event",
+    "cost": 2,
+    "archetypes": [
+      "Rainbow Dash"
+    ]
+  },
+  "BP01-SPR02": {
+    "id": "BP01-SPR02",
+    "set": "BP01",
+    "rarity": "SPR",
+    "name": "Time for Clean-up!",
+    "type": "event",
+    "cost": 3
+  },
+  "BP01-SPR03": {
+    "id": "BP01-SPR03",
+    "set": "BP01",
+    "rarity": "SPR",
+    "name": "Deliver Letters",
+    "type": "event",
+    "cost": 1,
+    "archetypes": [
+      "Twilight Sparkle"
+    ]
+  },
+  "BP01-SPR04": {
+    "id": "BP01-SPR04",
+    "set": "BP01",
+    "rarity": "SPR",
+    "name": "Award Ceremony",
+    "type": "event",
+    "cost": 3
+  },
+  "BP01-SPR05": {
+    "id": "BP01-SPR05",
+    "set": "BP01",
+    "rarity": "SPR",
+    "name": "Prepared to Go",
+    "type": "event",
+    "cost": 2,
+    "archetypes": [
+      "Pinkie Pie"
+    ]
+  },
+  "BP01-SPR06": {
+    "id": "BP01-SPR06",
+    "set": "BP01",
+    "rarity": "SPR",
+    "name": "Overspeed Warning!",
+    "type": "event",
+    "cost": 2
+  },
+  "BP01-SPR07": {
+    "id": "BP01-SPR07",
+    "set": "BP01",
+    "rarity": "SPR",
+    "name": "Hair Curling",
+    "type": "event",
+    "cost": 2
+  },
+  "BP01-SPR08": {
+    "id": "BP01-SPR08",
+    "set": "BP01",
+    "rarity": "SPR",
+    "name": "Pillow Fight",
+    "type": "event",
+    "cost": 2
+  },
+  "BP01-SPR09": {
+    "id": "BP01-SPR09",
+    "set": "BP01",
+    "rarity": "SPR",
+    "name": "Rain Under the Roof",
+    "type": "event",
+    "cost": 3
+  },
+  "BP01-SPR10": {
+    "id": "BP01-SPR10",
+    "set": "BP01",
+    "rarity": "SPR",
+    "name": "Wire Accident",
+    "type": "event",
+    "cost": 2
+  },
+  "BP01-SPR11": {
+    "id": "BP01-SPR11",
+    "set": "BP01",
+    "rarity": "SPR",
+    "name": "Make a Cake",
+    "type": "event",
+    "cost": 2
+  },
+  "BP01-SPR12": {
+    "id": "BP01-SPR12",
+    "set": "BP01",
+    "rarity": "SPR",
+    "name": "Hoof Power Test",
+    "type": "event",
+    "cost": 3,
+    "archetypes": [
+      "Applejack"
+    ]
+  },
+  "BP01-SPR13": {
+    "id": "BP01-SPR13",
+    "set": "BP01",
+    "rarity": "SPR",
+    "name": "Tense Competition",
+    "type": "event",
+    "cost": 2,
+    "archetypes": [
+      "Fluttershy"
+    ]
+  },
+  "BP01-SPR14": {
+    "id": "BP01-SPR14",
+    "set": "BP01",
+    "rarity": "SPR",
+    "name": "Messy Henhouse",
+    "type": "event",
+    "cost": 2
+  },
+  "BP01-SPR15": {
+    "id": "BP01-SPR15",
+    "set": "BP01",
+    "rarity": "SPR",
+    "name": "Washing Day",
+    "type": "event",
+    "cost": 2
+  },
+  "BP01-SPR16": {
+    "id": "BP01-SPR16",
+    "set": "BP01",
+    "rarity": "SPR",
+    "name": "Dig for Gems",
+    "type": "event",
+    "cost": 2,
+    "archetypes": [
+      "Rarity"
+    ]
+  },
+  "BP01-SPR17": {
+    "id": "BP01-SPR17",
+    "set": "BP01",
+    "rarity": "SPR",
+    "name": "Attend to Cure",
+    "type": "event",
+    "cost": 2
+  },
+  "BP01-SPR18": {
+    "id": "BP01-SPR18",
+    "set": "BP01",
+    "rarity": "SPR",
+    "name": "Accidentally Burnt Book",
+    "type": "event",
+    "cost": 2
+  },
+  "BP01-SPR19": {
+    "id": "BP01-SPR19",
+    "set": "BP01",
+    "rarity": "SPR",
+    "name": "Cycling for Friends",
+    "type": "event",
+    "cost": 2,
+    "archetypes": [
+      "Applejack"
+    ]
+  },
+  "BP01-SPR20": {
+    "id": "BP01-SPR20",
+    "set": "BP01",
+    "rarity": "SPR",
+    "name": "Head Up to the Night Sky",
+    "type": "event",
+    "cost": 2,
+    "archetypes": [
+      "Twilight Sparkle"
+    ]
+  },
+  "BP01-SPR21": {
+    "id": "BP01-SPR21",
+    "set": "BP01",
+    "rarity": "SPR",
+    "name": "Found SCroll",
+    "type": "event",
+    "cost": 1,
+    "archetypes": [
+      "Twilight Sparkle"
+    ]
+  },
+  "BP01-SPR22": {
+    "id": "BP01-SPR22",
+    "set": "BP01",
+    "rarity": "SPR",
+    "name": "Super Spicy Sauce",
+    "type": "item",
+    "cost": 2,
+    "archetypes": [
+      "Twilight Sparkle"
+    ]
+  },
+  "BP01-SPR23": {
+    "id": "BP01-SPR23",
+    "set": "BP01",
+    "rarity": "SPR",
+    "name": "Soda",
+    "type": "item",
+    "cost": 3,
+    "archetypes": [
+      "Applejack"
+    ]
+  },
+  "BP01-SPR24": {
+    "id": "BP01-SPR24",
+    "set": "BP01",
+    "rarity": "SPR",
+    "name": "Horseshoe",
+    "type": "item",
+    "cost": 2,
+    "archetypes": [
+      "Rainbow Dash"
+    ]
+  },
+  "BP01-SPR25": {
+    "id": "BP01-SPR25",
+    "set": "BP01",
+    "rarity": "SPR",
+    "name": "Pinkie Pie's Flying Device",
+    "type": "item",
+    "cost": 2,
+    "archetypes": [
+      "Pinkie Pie"
+    ]
+  },
+  "BP01-SPR26": {
+    "id": "BP01-SPR26",
+    "set": "BP01",
+    "rarity": "SPR",
+    "name": "Thimble Pack",
+    "type": "item",
+    "cost": 3,
+    "archetypes": [
+      "Rarity"
+    ]
+  },
+  "BP01-SPR27": {
+    "id": "BP01-SPR27",
+    "set": "BP01",
+    "rarity": "SPR",
+    "name": "Fluttershy's Bell",
+    "type": "item",
+    "cost": 2,
+    "archetypes": [
+      "Fluttershy"
+    ]
+  },
+  "BP01-SPR28": {
+    "id": "BP01-SPR28",
+    "set": "BP01",
+    "rarity": "SPR",
+    "name": "Recorder",
+    "type": "item",
+    "cost": 2,
+    "archetypes": [
+      "Pinkie Pie"
+    ]
+  },
+  "BP01-SR01": {
+    "id": "BP01-SR01",
+    "set": "BP01",
+    "rarity": "SR",
+    "name": "Twilight Sparkle",
+    "type": "character",
+    "cost": 1,
+    "archetypes": [
+      "Twilight Sparkle"
+    ],
+    "inspiration": 2,
+    "subtypes": [
+      "Unicorn",
+      "Twilight Sparkle"
+    ]
+  },
+  "BP01-SR02": {
+    "id": "BP01-SR02",
+    "set": "BP01",
+    "rarity": "SR",
+    "name": "Fluttershy",
+    "type": "character",
+    "cost": 5,
+    "archetypes": [
+      "Fluttershy"
+    ],
+    "subtypes": [
+      "Pegasus",
+      "Fluttershy"
+    ]
+  },
+  "BP01-SR03": {
+    "id": "BP01-SR03",
+    "set": "BP01",
+    "rarity": "SR",
+    "name": "Pinkie Pie",
+    "type": "character",
+    "cost": 2,
+    "archetypes": [
+      "Pinkie Pie"
+    ],
+    "inspiration": 3,
+    "subtypes": [
+      "Earth Pony",
+      "Pinkie Pie"
+    ]
+  },
+  "BP01-SR04": {
+    "id": "BP01-SR04",
+    "set": "BP01",
+    "rarity": "SR",
+    "name": "Applejack",
+    "type": "character",
+    "cost": 4,
+    "archetypes": [
+      "Applejack"
+    ],
+    "inspiration": 5,
+    "subtypes": [
+      "Earth Pony",
+      "Applejack"
+    ]
+  },
+  "BP01-SR05": {
+    "id": "BP01-SR05",
+    "set": "BP01",
+    "rarity": "SR",
+    "name": "Rainbow Dash",
+    "type": "character",
+    "cost": 3,
+    "archetypes": [
+      "Rainbow Dash"
+    ],
+    "inspiration": 4,
+    "subtypes": [
+      "Rainbow Dash",
+      "Pegasus"
+    ]
+  },
+  "BP01-SR06": {
+    "id": "BP01-SR06",
+    "set": "BP01",
+    "rarity": "SR",
+    "name": "Rarity",
+    "type": "character",
+    "cost": 2,
+    "archetypes": [
+      "Rarity"
+    ],
+    "inspiration": 3,
+    "subtypes": [
+      "Rarity",
+      "Unicorn"
+    ]
+  },
+  "BP01-SR07": {
+    "id": "BP01-SR07",
+    "set": "BP01",
+    "rarity": "SR",
+    "name": "Owlowiscious",
+    "type": "character",
+    "cost": 1,
+    "archetypes": [
+      "Twilight Sparkle"
+    ],
+    "inspiration": 2,
+    "subtypes": [
+      "Owl",
+      "Pet",
+      "Owlowiscious"
+    ]
+  },
+  "BP01-SR08": {
+    "id": "BP01-SR08",
+    "set": "BP01",
+    "rarity": "SR",
+    "name": "Angel",
+    "type": "character",
+    "cost": 4,
+    "archetypes": [
+      "Fluttershy"
+    ],
+    "inspiration": 5,
+    "subtypes": [
+      "Rabbit",
+      "Angel",
+      "Pet"
+    ]
+  },
+  "BP01-SR09": {
+    "id": "BP01-SR09",
+    "set": "BP01",
+    "rarity": "SR",
+    "name": "Gummy",
+    "type": "character",
+    "cost": 4,
+    "inspiration": 5,
+    "subtypes": [
+      "Pet",
+      "Gummy",
+      "Crocodile"
+    ]
+  },
+  "BP01-SR10": {
+    "id": "BP01-SR10",
+    "set": "BP01",
+    "rarity": "SR",
+    "name": "Winona",
+    "type": "character",
+    "cost": 7,
+    "archetypes": [
+      "Applejack"
+    ],
+    "inspiration": 9,
+    "subtypes": [
+      "Dog",
+      "Pet",
+      "Winona"
+    ]
+  },
+  "BP01-SR11": {
+    "id": "BP01-SR11",
+    "set": "BP01",
+    "rarity": "SR",
+    "name": "Tank",
+    "type": "character",
+    "cost": 5,
+    "archetypes": [
+      "Rainbow Dash"
+    ],
+    "inspiration": 6,
+    "subtypes": [
+      "Turtle",
+      "Tank",
+      "Pet"
+    ]
+  },
+  "BP01-SR12": {
+    "id": "BP01-SR12",
+    "set": "BP01",
+    "rarity": "SR",
+    "name": "Opal",
+    "type": "character",
+    "cost": 5,
+    "archetypes": [
+      "Rarity"
+    ],
+    "inspiration": 5,
+    "subtypes": [
+      "Cat",
+      "Opal",
+      "Pet"
+    ]
+  },
+  "BP01-SR13": {
+    "id": "BP01-SR13",
+    "set": "BP01",
+    "rarity": "SR",
+    "name": "Zecora",
+    "type": "character",
+    "cost": 5,
+    "inspiration": 6,
+    "subtypes": [
+      "Zebra",
+      "Zecora"
+    ]
+  },
+  "BP01-SR14": {
+    "id": "BP01-SR14",
+    "set": "BP01",
+    "rarity": "SR",
+    "name": "Trixie",
+    "type": "character",
+    "cost": 2,
+    "inspiration": 3,
+    "subtypes": [
+      "Trixie",
+      "Unicorn"
+    ]
+  },
+  "BP01-U01": {
+    "id": "BP01-U01",
+    "set": "BP01",
+    "rarity": "U",
+    "name": "Twilight Sparkle",
+    "type": "character",
+    "cost": 1,
+    "inspiration": 1,
+    "subtypes": [
+      "Unicorn",
+      "Twilight Sparkle"
+    ]
+  },
+  "BP01-U02": {
+    "id": "BP01-U02",
+    "set": "BP01",
+    "rarity": "U",
+    "name": "Twilight Sparkle",
+    "type": "character",
+    "cost": 5,
+    "inspiration": 7,
+    "subtypes": [
+      "Twilight Sparkle",
+      "Unicorn"
+    ]
+  },
+  "BP01-U03": {
+    "id": "BP01-U03",
+    "set": "BP01",
+    "rarity": "U",
+    "name": "Fluttershy",
+    "type": "character",
+    "cost": 7,
+    "inspiration": 9,
+    "subtypes": [
+      "Pegasus",
+      "Fluttershy"
+    ]
+  },
+  "BP01-U04": {
+    "id": "BP01-U04",
+    "set": "BP01",
+    "rarity": "U",
+    "name": "Fluttershy",
+    "type": "character",
+    "cost": 5,
+    "inspiration": 7,
+    "subtypes": [
+      "Fluttershy",
+      "Pegasus"
+    ]
+  },
+  "BP01-U05": {
+    "id": "BP01-U05",
+    "set": "BP01",
+    "rarity": "U",
+    "name": "Pinkie Pie",
+    "type": "character",
+    "cost": 2,
+    "inspiration": 3,
+    "subtypes": [
+      "Earth Pony",
+      "Pinkie Pie"
+    ]
+  },
+  "BP01-U06": {
+    "id": "BP01-U06",
+    "set": "BP01",
+    "rarity": "U",
+    "name": "Pinkie Pie",
+    "type": "character",
+    "cost": 5,
+    "inspiration": 7,
+    "subtypes": [
+      "Pinkie Pie",
+      "Earth Pony"
+    ]
+  },
+  "BP01-U07": {
+    "id": "BP01-U07",
+    "set": "BP01",
+    "rarity": "U",
+    "name": "Applejack",
+    "type": "character",
+    "cost": 2,
+    "archetypes": [
+      "Applejack"
+    ],
+    "inspiration": 3,
+    "subtypes": [
+      "Earth Pony",
+      "Applejack"
+    ]
+  },
+  "BP01-U08": {
+    "id": "BP01-U08",
+    "set": "BP01",
+    "rarity": "U",
+    "name": "Applejack",
+    "type": "character",
+    "cost": 2,
+    "inspiration": 4,
+    "subtypes": [
+      "Applejack",
+      "Earth Pony"
+    ]
+  },
+  "BP01-U09": {
+    "id": "BP01-U09",
+    "set": "BP01",
+    "rarity": "U",
+    "name": "Rainbow Dash",
+    "type": "character",
+    "cost": 4,
+    "inspiration": 5,
+    "subtypes": [
+      "Pegasus",
+      "Rainbow Dash"
+    ]
+  },
+  "BP01-U10": {
+    "id": "BP01-U10",
+    "set": "BP01",
+    "rarity": "U",
+    "name": "Rainbow Dash",
+    "type": "character",
+    "cost": 2,
+    "inspiration": 4,
+    "subtypes": [
+      "Rainbow Dash",
+      "Pegasus"
+    ]
+  },
+  "BP01-U11": {
+    "id": "BP01-U11",
+    "set": "BP01",
+    "rarity": "U",
+    "name": "Rarity",
+    "type": "character",
+    "cost": 3,
+    "archetypes": [
+      "Rarity"
+    ],
+    "inspiration": 4,
+    "subtypes": [
+      "Rarity",
+      "Unicorn"
+    ]
+  },
+  "BP01-U12": {
+    "id": "BP01-U12",
+    "set": "BP01",
+    "rarity": "U",
+    "name": "Rarity",
+    "type": "character",
+    "cost": 1,
+    "inspiration": 2,
+    "subtypes": [
+      "Rarity",
+      "Unicorn"
+    ]
+  },
+  "BP01-U13": {
+    "id": "BP01-U13",
+    "set": "BP01",
+    "rarity": "U",
+    "name": "Spike",
+    "type": "character",
+    "cost": 1,
+    "inspiration": 1,
+    "subtypes": [
+      "Dragon",
+      "Spike"
+    ]
+  },
+  "BP01-U14": {
+    "id": "BP01-U14",
+    "set": "BP01",
+    "rarity": "U",
+    "name": "Spike",
+    "type": "character",
+    "cost": 4,
+    "inspiration": 5,
+    "subtypes": [
+      "Dragon",
+      "Spike"
+    ]
+  },
+  "BP01-U15": {
+    "id": "BP01-U15",
+    "set": "BP01",
+    "rarity": "U",
+    "name": "Apple Bloom",
+    "type": "character",
+    "cost": 1,
+    "inspiration": 1,
+    "subtypes": [
+      "Earth Pony"
+    ]
+  },
+  "BP01-U16": {
+    "id": "BP01-U16",
+    "set": "BP01",
+    "rarity": "U",
+    "name": "Sweetie Belle",
+    "type": "character",
+    "cost": 1,
+    "inspiration": 1,
+    "subtypes": [
+      "Unicorn",
+      "Sweetie Belle"
+    ]
+  },
+  "BP01-U17": {
+    "id": "BP01-U17",
+    "set": "BP01",
+    "rarity": "U",
+    "name": "Scootaloo",
+    "type": "character",
+    "cost": 1,
+    "inspiration": 1,
+    "subtypes": [
+      "Scootaloo",
+      "Pegasus"
+    ]
+  },
+  "BP01-U18": {
+    "id": "BP01-U18",
+    "set": "BP01",
+    "rarity": "U",
+    "name": "Trixie",
+    "type": "character",
+    "cost": 2,
+    "inspiration": 4,
+    "subtypes": [
+      "Unicorn",
+      "Trixie"
+    ]
+  },
+  "PR01": {
+    "id": "PR01",
+    "set": "PR",
+    "rarity": "PR",
+    "name": "Twilight Sparkle",
+    "type": "character",
+    "cost": 7,
+    "inspiration": 8,
+    "subtypes": [
+      "Alicorn",
+      "Twilight Sparkle"
+    ]
+  },
+  "PR02": {
+    "id": "PR02",
+    "set": "PR",
+    "rarity": "PR",
+    "name": "Fluttershy",
+    "type": "character",
+    "cost": 2,
+    "inspiration": 3,
+    "subtypes": [
+      "Fluttershy",
+      "Pegasus"
+    ]
+  },
+  "PR03": {
+    "id": "PR03",
+    "set": "PR",
+    "rarity": "PR",
+    "name": "Pinkie Pie",
+    "type": "character",
+    "cost": 4,
+    "inspiration": 5,
+    "subtypes": [
+      "Pinkie Pie",
+      "Earth Pony"
+    ]
+  },
+  "PR04": {
+    "id": "PR04",
+    "set": "PR",
+    "rarity": "PR",
+    "name": "Applejack",
+    "type": "character",
+    "cost": 6,
+    "inspiration": 7,
+    "subtypes": [
+      "Earth Pony",
+      "Applejack"
+    ]
+  },
+  "PR05": {
+    "id": "PR05",
+    "set": "PR",
+    "rarity": "PR",
+    "name": "Rainbow Dash",
+    "type": "character",
+    "cost": 3,
+    "inspiration": 4,
+    "subtypes": [
+      "Pegasus",
+      "Rainbow Dash"
+    ]
+  },
+  "PR06": {
+    "id": "PR06",
+    "set": "PR",
+    "rarity": "PR",
+    "name": "Rarity",
+    "type": "character",
+    "cost": 5,
+    "inspiration": 6,
+    "subtypes": [
+      "Rarity",
+      "Unicorn"
+    ]
+  },
+  "SD01-C01": {
+    "id": "SD01-C01",
+    "set": "SD01",
+    "rarity": "C",
+    "name": "Twilight Sparkle",
+    "type": "character",
+    "cost": 1,
+    "inspiration": 2,
+    "subtypes": [
+      "Unicorn",
+      "Twilight Sparkle"
+    ]
+  },
+  "SD01-C02": {
+    "id": "SD01-C02",
+    "set": "SD01",
+    "rarity": "C",
+    "name": "Fluttershy",
+    "type": "character",
+    "cost": 4,
+    "inspiration": 6,
+    "subtypes": [
+      "Pegasus",
+      "Fluttershy"
+    ]
+  },
+  "SD01-C03": {
+    "id": "SD01-C03",
+    "set": "SD01",
+    "rarity": "C",
+    "name": "Pinkie Pie",
+    "type": "character",
+    "cost": 3,
+    "inspiration": 5,
+    "subtypes": [
+      "Earth Pony",
+      "Pinkie Pie"
+    ]
+  },
+  "SD01-C04": {
+    "id": "SD01-C04",
+    "set": "SD01",
+    "rarity": "C",
+    "name": "Applejack",
+    "type": "character",
+    "cost": 3,
+    "inspiration": 5,
+    "subtypes": [
+      "Earth Pony",
+      "Applejack"
+    ]
+  },
+  "SD01-C05": {
+    "id": "SD01-C05",
+    "set": "SD01",
+    "rarity": "C",
+    "name": "Rainbow Dash",
+    "type": "character",
+    "cost": 1,
+    "inspiration": 2,
+    "subtypes": [
+      "Pegasus",
+      "Rainbow Dash"
+    ]
+  },
+  "SD01-C06": {
+    "id": "SD01-C06",
+    "set": "SD01",
+    "rarity": "C",
+    "name": "Rarity",
+    "type": "character",
+    "cost": 1,
+    "inspiration": 2,
+    "subtypes": [
+      "Unicorn",
+      "Rarity"
+    ]
+  },
+  "SD01-C07": {
+    "id": "SD01-C07",
+    "set": "SD01",
+    "rarity": "C",
+    "name": "Apple Bloom",
+    "type": "character",
+    "cost": 1,
+    "inspiration": 1,
+    "subtypes": [
+      "Apple Bloom",
+      "Earth Pony"
+    ]
+  },
+  "SD01-C08": {
+    "id": "SD01-C08",
+    "set": "SD01",
+    "rarity": "C",
+    "name": "Sweetie Belle",
+    "type": "character",
+    "cost": 2,
+    "inspiration": 3,
+    "subtypes": [
+      "Unicorn",
+      "Sweetie Belle"
+    ]
+  },
+  "SD01-C09": {
+    "id": "SD01-C09",
+    "set": "SD01",
+    "rarity": "C",
+    "name": "Scootaloo",
+    "type": "character",
+    "cost": 2,
+    "inspiration": 3,
+    "subtypes": [
+      "Scootaloo",
+      "Pegasus"
+    ]
+  },
+  "SD01-CR01": {
+    "id": "SD01-CR01",
+    "set": "SD01",
+    "rarity": "CR",
+    "name": "Twilight Sparkle",
+    "type": "character",
+    "cost": 5,
+    "inspiration": 5,
+    "subtypes": [
+      "Unicorn",
+      "Twilight Sparkle"
+    ]
+  },
+  "SD01-CR02": {
+    "id": "SD01-CR02",
+    "set": "SD01",
+    "rarity": "CR",
+    "name": "Fluttershy",
+    "type": "character",
+    "cost": 5,
+    "inspiration": 6,
+    "subtypes": [
+      "Pegasus",
+      "Fluttershy"
+    ]
+  },
+  "SD01-CR03": {
+    "id": "SD01-CR03",
+    "set": "SD01",
+    "rarity": "CR",
+    "name": "Pinkie Pie",
+    "type": "character",
+    "cost": 5,
+    "inspiration": 5,
+    "subtypes": [
+      "Earth Pony",
+      "Pinkie Pie"
+    ]
+  },
+  "SD01-CR04": {
+    "id": "SD01-CR04",
+    "set": "SD01",
+    "rarity": "CR",
+    "name": "Applejack",
+    "type": "character",
+    "cost": 4,
+    "archetypes": [
+      "Applejack"
+    ],
+    "inspiration": 6,
+    "subtypes": [
+      "Earth Pony",
+      "Applejack"
+    ]
+  },
+  "SD01-CR05": {
+    "id": "SD01-CR05",
+    "set": "SD01",
+    "rarity": "CR",
+    "name": "Rainbow Dash",
+    "type": "character",
+    "cost": 4,
+    "inspiration": 5,
+    "subtypes": [
+      "Pegasus",
+      "Rainbow Dash"
+    ]
+  },
+  "SD01-CR06": {
+    "id": "SD01-CR06",
+    "set": "SD01",
+    "rarity": "CR",
+    "name": "Rarity",
+    "type": "character",
+    "cost": 2,
+    "archetypes": [
+      "Rarity"
+    ],
+    "inspiration": 4,
+    "subtypes": [
+      "Rarity",
+      "Unicorn"
+    ]
+  },
+  "SD01-ER01": {
+    "id": "SD01-ER01",
+    "set": "SD01",
+    "rarity": "ER",
+    "name": "Golden Oak Library",
+    "type": "scene"
+  },
+  "SD01-ER02": {
+    "id": "SD01-ER02",
+    "set": "SD01",
+    "rarity": "ER",
+    "name": "Fluttershy's Cottage",
+    "type": "scene"
+  },
+  "SD01-ER03": {
+    "id": "SD01-ER03",
+    "set": "SD01",
+    "rarity": "ER",
+    "name": "Sugarcube Corner",
+    "type": "scene"
+  },
+  "SD01-ER04": {
+    "id": "SD01-ER04",
+    "set": "SD01",
+    "rarity": "ER",
+    "name": "Sweet Apple Acres",
+    "type": "scene"
+  },
+  "SD01-ER05": {
+    "id": "SD01-ER05",
+    "set": "SD01",
+    "rarity": "ER",
+    "name": "Cloudominium",
+    "type": "scene"
+  },
+  "SD01-ER06": {
+    "id": "SD01-ER06",
+    "set": "SD01",
+    "rarity": "ER",
+    "name": "Carousel Boutique",
+    "type": "scene"
+  },
+  "SD01-ER07": {
+    "id": "SD01-ER07",
+    "set": "SD01",
+    "rarity": "ER",
+    "name": "Canterlot Tower",
+    "type": "scene"
+  },
+  "SD01-ER08": {
+    "id": "SD01-ER08",
+    "set": "SD01",
+    "rarity": "ER",
+    "name": "Ponyville Suburb",
+    "type": "scene"
+  },
+  "SD01-ER09": {
+    "id": "SD01-ER09",
+    "set": "SD01",
+    "rarity": "ER",
+    "name": "Ponyville Street",
+    "type": "scene"
+  },
+  "SD01-ER10": {
+    "id": "SD01-ER10",
+    "set": "SD01",
+    "rarity": "ER",
+    "name": "Road at Sweet Apple Acres",
+    "type": "scene"
+  },
+  "SD01-ER11": {
+    "id": "SD01-ER11",
+    "set": "SD01",
+    "rarity": "ER",
+    "name": "Stairs of Cloudsdale",
+    "type": "scene"
+  },
+  "SD01-ER12": {
+    "id": "SD01-ER12",
+    "set": "SD01",
+    "rarity": "ER",
+    "name": "Manehattan Streets",
+    "type": "scene"
+  },
+  "SD01-GR01": {
+    "id": "SD01-GR01",
+    "set": "SD01",
+    "rarity": "GR",
+    "name": "Twilight Sparkle",
+    "type": "character",
+    "cost": 7,
+    "inspiration": 8,
+    "subtypes": [
+      "Twilight Sparkle",
+      "Unicorn"
+    ]
+  },
+  "SD01-GR02": {
+    "id": "SD01-GR02",
+    "set": "SD01",
+    "rarity": "GR",
+    "name": "Fluttershy",
+    "type": "character",
+    "cost": 7,
+    "archetypes": [
+      "Fluttershy"
+    ],
+    "inspiration": 8,
+    "subtypes": [
+      "Pegasus",
+      "Fluttershy"
+    ]
+  },
+  "SD01-GR03": {
+    "id": "SD01-GR03",
+    "set": "SD01",
+    "rarity": "GR",
+    "name": "Pinkie Pie",
+    "type": "character",
+    "cost": 2,
+    "inspiration": 3,
+    "subtypes": [
+      "Earth Pony",
+      "Pinkie Pie"
+    ]
+  },
+  "SD01-GR04": {
+    "id": "SD01-GR04",
+    "set": "SD01",
+    "rarity": "GR",
+    "name": "Applejack",
+    "type": "character",
+    "cost": 3,
+    "inspiration": 3,
+    "subtypes": [
+      "Earth Pony",
+      "Applejack"
+    ]
+  },
+  "SD01-GR05": {
+    "id": "SD01-GR05",
+    "set": "SD01",
+    "rarity": "GR",
+    "name": "Rainbow Dash",
+    "type": "character",
+    "cost": 2,
+    "archetypes": [
+      "Rainbow Dash"
+    ],
+    "inspiration": 3,
+    "subtypes": [
+      "Pegasus",
+      "Rainbow Dash"
+    ]
+  },
+  "SD01-GR06": {
+    "id": "SD01-GR06",
+    "set": "SD01",
+    "rarity": "GR",
+    "name": "Rarity",
+    "type": "character",
+    "cost": 5,
+    "inspiration": 5,
+    "subtypes": [
+      "Rarity",
+      "Unicorn"
+    ]
+  },
+  "SD01-RR01": {
+    "id": "SD01-RR01",
+    "set": "SD01",
+    "rarity": "RR",
+    "name": "Twilight Sparkle",
+    "type": "main character"
+  },
+  "SD01-RR02": {
+    "id": "SD01-RR02",
+    "set": "SD01",
+    "rarity": "RR",
+    "name": "Fluttershy",
+    "type": "main character"
+  },
+  "SD01-RR03": {
+    "id": "SD01-RR03",
+    "set": "SD01",
+    "rarity": "RR",
+    "name": "Pinkie Pie",
+    "type": "main character"
+  },
+  "SD01-RR04": {
+    "id": "SD01-RR04",
+    "set": "SD01",
+    "rarity": "RR",
+    "name": "Applejack",
+    "type": "main character"
+  },
+  "SD01-RR05": {
+    "id": "SD01-RR05",
+    "set": "SD01",
+    "rarity": "RR",
+    "name": "Rainbow Dash",
+    "type": "main character"
+  },
+  "SD01-RR06": {
+    "id": "SD01-RR06",
+    "set": "SD01",
+    "rarity": "RR",
+    "name": "Rarity",
+    "type": "main character"
+  },
+  "SD01-SPR01": {
+    "id": "SD01-SPR01",
+    "set": "SD01",
+    "rarity": "SPR",
+    "name": "Friends from other Side",
+    "type": "event",
+    "cost": 1,
+    "archetypes": [
+      "Fluttershy"
+    ]
+  },
+  "SD01-SPR02": {
+    "id": "SD01-SPR02",
+    "set": "SD01",
+    "rarity": "SPR",
+    "name": "Friendly Rabbits",
+    "type": "event",
+    "cost": 3
+  },
+  "SD01-SPR03": {
+    "id": "SD01-SPR03",
+    "set": "SD01",
+    "rarity": "SPR",
+    "name": "Friendship Report",
+    "type": "event",
+    "cost": 2,
+    "archetypes": [
+      "Twilight Sparkle"
+    ]
+  },
+  "SD01-SPR04": {
+    "id": "SD01-SPR04",
+    "set": "SD01",
+    "rarity": "SPR",
+    "name": "Way to the Top",
+    "type": "event",
+    "cost": 2
+  },
+  "SD01-SPR05": {
+    "id": "SD01-SPR05",
+    "set": "SD01",
+    "rarity": "SPR",
+    "name": "Time for Class",
+    "type": "story"
+  },
+  "SD01-SPR06": {
+    "id": "SD01-SPR06",
+    "set": "SD01",
+    "rarity": "SPR",
+    "name": "Meteor Shower",
+    "type": "event",
+    "cost": 2
+  },
+  "SD01-SPR07": {
+    "id": "SD01-SPR07",
+    "set": "SD01",
+    "rarity": "SPR",
+    "name": "Funny Glasses",
+    "type": "item",
+    "cost": 3,
+    "archetypes": [
+      "Pinkie Pie"
+    ]
+  },
+  "SD01-SPR08": {
+    "id": "SD01-SPR08",
+    "set": "SD01",
+    "rarity": "SPR",
+    "name": "Today's Homework",
+    "type": "item",
+    "cost": 2,
+    "archetypes": [
+      "Twilight Sparkle"
+    ]
+  },
+  "SD01-SPR09": {
+    "id": "SD01-SPR09",
+    "set": "SD01",
+    "rarity": "SPR",
+    "name": "Delivered Letter",
+    "type": "item",
+    "cost": 2
+  },
+  "SD01-SPR10": {
+    "id": "SD01-SPR10",
+    "set": "SD01",
+    "rarity": "SPR",
+    "name": "Cure for Poison Joke",
+    "type": "item",
+    "cost": 4
+  },
+  "SD01-SR01": {
+    "id": "SD01-SR01",
+    "set": "SD01",
+    "rarity": "SR",
+    "name": "Twilight Sparkle",
+    "type": "character",
+    "cost": 3,
+    "inspiration": 4,
+    "subtypes": [
+      "Unicorn",
+      "Twilight Sparkle"
+    ]
+  },
+  "SD01-SR02": {
+    "id": "SD01-SR02",
+    "set": "SD01",
+    "rarity": "SR",
+    "name": "Fluttershy",
+    "type": "character",
+    "cost": 5,
+    "inspiration": 6,
+    "subtypes": [
+      "Fluttershy",
+      "Pegasus"
+    ]
+  },
+  "SD01-SR03": {
+    "id": "SD01-SR03",
+    "set": "SD01",
+    "rarity": "SR",
+    "name": "Pinkie Pie",
+    "type": "character",
+    "cost": 1,
+    "inspiration": 1,
+    "subtypes": [
+      "Earth Pony",
+      "Pinkie Pie"
+    ]
+  },
+  "SD01-SR04": {
+    "id": "SD01-SR04",
+    "set": "SD01",
+    "rarity": "SR",
+    "name": "Applejack",
+    "type": "character",
+    "cost": 2,
+    "archetypes": [
+      "Applejack"
+    ],
+    "inspiration": 3,
+    "subtypes": [
+      "Earth Pony",
+      "Applejack"
+    ]
+  },
+  "SD01-SR05": {
+    "id": "SD01-SR05",
+    "set": "SD01",
+    "rarity": "SR",
+    "name": "Rainbow Dash",
+    "type": "character",
+    "cost": 4,
+    "inspiration": 6,
+    "subtypes": [
+      "Pegasus",
+      "Rainbow Dash"
+    ]
+  },
+  "SD01-SR06": {
+    "id": "SD01-SR06",
+    "set": "SD01",
+    "rarity": "SR",
+    "name": "Rarity",
+    "type": "character",
+    "cost": 6,
+    "inspiration": 7,
+    "subtypes": [
+      "Unicorn",
+      "Rarity"
+    ]
+  },
+  "SD01-U01": {
+    "id": "SD01-U01",
+    "set": "SD01",
+    "rarity": "U",
+    "name": "Twilight Sparkle",
+    "type": "character",
+    "cost": 4,
+    "inspiration": 5,
+    "subtypes": [
+      "Unicorn",
+      "Twilight Sparkle"
+    ]
+  },
+  "SD01-U02": {
+    "id": "SD01-U02",
+    "set": "SD01",
+    "rarity": "U",
+    "name": "Fluttershy",
+    "type": "character",
+    "cost": 5,
+    "inspiration": 5,
+    "subtypes": [
+      "Pegasus",
+      "Fluttershy"
+    ]
+  },
+  "SD01-U03": {
+    "id": "SD01-U03",
+    "set": "SD01",
+    "rarity": "U",
+    "name": "Pinkie Pie",
+    "type": "character",
+    "cost": 4,
+    "inspiration": 5,
+    "subtypes": [
+      "Earth Pony",
+      "Pinkie Pie"
+    ]
+  },
+  "SD01-U04": {
+    "id": "SD01-U04",
+    "set": "SD01",
+    "rarity": "U",
+    "name": "Applejack",
+    "type": "character",
+    "cost": 1,
+    "inspiration": 2,
+    "subtypes": [
+      "Applejack",
+      "Earth Pony"
+    ]
+  },
+  "SD01-U05": {
+    "id": "SD01-U05",
+    "set": "SD01",
+    "rarity": "U",
+    "name": "Rainbow Dash",
+    "type": "character",
+    "cost": 3,
+    "inspiration": 4,
+    "subtypes": [
+      "Pegasus",
+      "Rainbow Dash"
+    ]
+  },
+  "SD01-U06": {
+    "id": "SD01-U06",
+    "set": "SD01",
+    "rarity": "U",
+    "name": "Rarity",
+    "type": "character",
+    "cost": 2,
+    "inspiration": 3,
+    "subtypes": [
+      "Unicorn",
+      "Rarity"
+    ]
+  },
+  "SD01-U07": {
+    "id": "SD01-U07",
+    "set": "SD01",
+    "rarity": "U",
+    "name": "Zecora",
+    "type": "character",
+    "cost": 1,
+    "inspiration": 2,
+    "subtypes": [
+      "Zebra",
+      "Zecora"
+    ]
+  },
+  "SD01A-C01": {
+    "id": "SD01A-C01",
+    "set": "SD01A",
+    "rarity": "C",
+    "name": "Twilight Sparkle",
+    "type": "character",
+    "cost": 3,
+    "inspiration": 5,
+    "subtypes": [
+      "Unicorn",
+      "Twilight Sparkle"
+    ]
+  },
+  "SD01A-C02": {
+    "id": "SD01A-C02",
+    "set": "SD01A",
+    "rarity": "C",
+    "name": "Twilight Sparkle",
+    "type": "character",
+    "cost": 2,
+    "inspiration": 4,
+    "subtypes": [
+      "Twilight Sparkle",
+      "Unicorn"
+    ]
+  },
+  "SD01A-C03": {
+    "id": "SD01A-C03",
+    "set": "SD01A",
+    "rarity": "C",
+    "name": "Spike",
+    "type": "character",
+    "cost": 4,
+    "inspiration": 6,
+    "subtypes": [
+      "Dragon",
+      "Spike"
+    ]
+  },
+  "SD01A-C04": {
+    "id": "SD01A-C04",
+    "set": "SD01A",
+    "rarity": "C",
+    "name": "Spike",
+    "type": "character",
+    "cost": 1,
+    "inspiration": 2,
+    "subtypes": [
+      "Dragon",
+      "Spike"
+    ]
+  },
+  "SD01A-C05": {
+    "id": "SD01A-C05",
+    "set": "SD01A",
+    "rarity": "C",
+    "name": "Owlowiscious",
+    "type": "character",
+    "cost": 2,
+    "inspiration": 3,
+    "subtypes": [
+      "Owlowiscious",
+      "Pet",
+      "Owl"
+    ]
+  },
+  "SD01A-C06": {
+    "id": "SD01A-C06",
+    "set": "SD01A",
+    "rarity": "C",
+    "name": "Searching for Elements of Harmony",
+    "type": "story"
+  },
+  "SD01A-C07": {
+    "id": "SD01A-C07",
+    "set": "SD01A",
+    "rarity": "C",
+    "name": "Searching for Elements of Harmony",
+    "type": "story"
+  },
+  "SD01A-C08": {
+    "id": "SD01A-C08",
+    "set": "SD01A",
+    "rarity": "C",
+    "name": "Searching for Elements of Harmony",
+    "type": "story"
+  },
+  "SD01A-C09": {
+    "id": "SD01A-C09",
+    "set": "SD01A",
+    "rarity": "C",
+    "name": "Searching for Elements of Harmony",
+    "type": "story"
+  },
+  "SD01A-SPR01": {
+    "id": "SD01A-SPR01",
+    "set": "SD01A",
+    "rarity": "SPR",
+    "name": "Field Reference",
+    "type": "event",
+    "cost": 2,
+    "archetypes": [
+      "Twilight Sparkle"
+    ]
+  },
+  "SD01A-SPR02": {
+    "id": "SD01A-SPR02",
+    "set": "SD01A",
+    "rarity": "SPR",
+    "name": "Search the Library",
+    "type": "event",
+    "cost": 3
+  },
+  "SD01A-SPR03": {
+    "id": "SD01A-SPR03",
+    "set": "SD01A",
+    "rarity": "SPR",
+    "name": "Experience Report",
+    "type": "event",
+    "cost": 3
+  },
+  "SD01A-SPR04": {
+    "id": "SD01A-SPR04",
+    "set": "SD01A",
+    "rarity": "SPR",
+    "name": "Guiding Tome",
+    "type": "item",
+    "cost": 2,
+    "archetypes": [
+      "Twilight Sparkle"
+    ]
+  },
+  "SD01A-SR01": {
+    "id": "SD01A-SR01",
+    "set": "SD01A",
+    "rarity": "SR",
+    "name": "Twilight Sparkle",
+    "type": "character",
+    "cost": 5,
+    "archetypes": [
+      "Twilight Sparkle"
+    ],
+    "inspiration": 5,
+    "subtypes": [
+      "Unicorn",
+      "Twilight Sparkle"
+    ]
+  },
+  "SD01A-SR02": {
+    "id": "SD01A-SR02",
+    "set": "SD01A",
+    "rarity": "SR",
+    "name": "Owlowiscious",
+    "type": "character",
+    "cost": 3,
+    "archetypes": [
+      "Twilight Sparkle"
+    ],
+    "inspiration": 4,
+    "subtypes": [
+      "Owlowiscious",
+      "Pet",
+      "Owl"
+    ]
+  },
+  "SD01A-U01": {
+    "id": "SD01A-U01",
+    "set": "SD01A",
+    "rarity": "U",
+    "name": "Twilight Sparkle",
+    "type": "character",
+    "cost": 3,
+    "inspiration": 4,
+    "subtypes": [
+      "Twilight Sparkle",
+      "Unicorn"
+    ]
+  },
+  "SD01A-U02": {
+    "id": "SD01A-U02",
+    "set": "SD01A",
+    "rarity": "U",
+    "name": "Twilight Sparkle",
+    "type": "character",
+    "cost": 6,
+    "inspiration": 8,
+    "subtypes": [
+      "Unicorn",
+      "Twilight Sparkle"
+    ]
+  },
+  "SD01A-U03": {
+    "id": "SD01A-U03",
+    "set": "SD01A",
+    "rarity": "U",
+    "name": "Spike",
+    "type": "character",
+    "cost": 3,
+    "inspiration": 4,
+    "subtypes": [
+      "Dragon",
+      "Spike"
+    ]
+  },
+  "SD01A-U04": {
+    "id": "SD01A-U04",
+    "set": "SD01A",
+    "rarity": "U",
+    "name": "Spike",
+    "type": "character",
+    "cost": 2,
+    "inspiration": 3,
+    "subtypes": [
+      "Spike",
+      "Dragon"
+    ]
+  },
+  "SD01B-C01": {
+    "id": "SD01B-C01",
+    "set": "SD01B",
+    "rarity": "C",
+    "name": "Fluttershy",
+    "type": "character",
+    "cost": 3,
+    "inspiration": 4,
+    "subtypes": [
+      "Pegasus",
+      "Fluttershy"
+    ]
+  },
+  "SD01B-C02": {
+    "id": "SD01B-C02",
+    "set": "SD01B",
+    "rarity": "C",
+    "name": "Fluttershy",
+    "type": "character",
+    "cost": 1,
+    "inspiration": 1,
+    "subtypes": [
+      "Pegasus",
+      "Fluttershy"
+    ]
+  },
+  "SD01B-C03": {
+    "id": "SD01B-C03",
+    "set": "SD01B",
+    "rarity": "C",
+    "name": "Fluttershy",
+    "type": "character",
+    "cost": 2,
+    "inspiration": 4,
+    "subtypes": [
+      "Fluttershy",
+      "Pegasus"
+    ]
+  },
+  "SD01B-C04": {
+    "id": "SD01B-C04",
+    "set": "SD01B",
+    "rarity": "C",
+    "name": "Turtle",
+    "type": "character",
+    "cost": 2,
+    "inspiration": 4,
+    "subtypes": [
+      "Turtle",
+      "Pet"
+    ]
+  },
+  "SD01B-C05": {
+    "id": "SD01B-C05",
+    "set": "SD01B",
+    "rarity": "C",
+    "name": "Angel",
+    "type": "character",
+    "cost": 1,
+    "inspiration": 2,
+    "subtypes": [
+      "Pet",
+      "Rabbit",
+      "Angel"
+    ]
+  },
+  "SD01B-C06": {
+    "id": "SD01B-C06",
+    "set": "SD01B",
+    "rarity": "C",
+    "name": "Dragonshy",
+    "type": "story"
+  },
+  "SD01B-C07": {
+    "id": "SD01B-C07",
+    "set": "SD01B",
+    "rarity": "C",
+    "name": "Dragonshy",
+    "type": "story"
+  },
+  "SD01B-C08": {
+    "id": "SD01B-C08",
+    "set": "SD01B",
+    "rarity": "C",
+    "name": "Dragonshy",
+    "type": "story"
+  },
+  "SD01B-C09": {
+    "id": "SD01B-C09",
+    "set": "SD01B",
+    "rarity": "C",
+    "name": "Dragonshy",
+    "type": "story"
+  },
+  "SD01B-SPR01": {
+    "id": "SD01B-SPR01",
+    "set": "SD01B",
+    "rarity": "SPR",
+    "name": "Aid for Moving Frogs Out",
+    "type": "event",
+    "cost": 2,
+    "archetypes": [
+      "Fluttershy"
+    ]
+  },
+  "SD01B-SPR02": {
+    "id": "SD01B-SPR02",
+    "set": "SD01B",
+    "rarity": "SPR",
+    "name": "Flower Picking Day",
+    "type": "event",
+    "cost": 1
+  },
+  "SD01B-SPR03": {
+    "id": "SD01B-SPR03",
+    "set": "SD01B",
+    "rarity": "SPR",
+    "name": "Healthy Salad",
+    "type": "event",
+    "cost": 4
+  },
+  "SD01B-SPR04": {
+    "id": "SD01B-SPR04",
+    "set": "SD01B",
+    "rarity": "SPR",
+    "name": "Rabbit Pocket Watch",
+    "type": "item",
+    "cost": 3,
+    "archetypes": [
+      "Fluttershy"
+    ]
+  },
+  "SD01B-SR01": {
+    "id": "SD01B-SR01",
+    "set": "SD01B",
+    "rarity": "SR",
+    "name": "Fluttershy",
+    "type": "character",
+    "cost": 3,
+    "archetypes": [
+      "Fluttershy"
+    ],
+    "inspiration": 4,
+    "subtypes": [
+      "Fluttershy",
+      "Pegasus"
+    ]
+  },
+  "SD01B-SR02": {
+    "id": "SD01B-SR02",
+    "set": "SD01B",
+    "rarity": "SR",
+    "name": "Angel",
+    "type": "character",
+    "cost": 1,
+    "archetypes": [
+      "Fluttershy"
+    ],
+    "inspiration": 1,
+    "subtypes": [
+      "Pet",
+      "Angel",
+      "Rabbit"
+    ]
+  },
+  "SD01B-U01": {
+    "id": "SD01B-U01",
+    "set": "SD01B",
+    "rarity": "U",
+    "name": "Fluttershy",
+    "type": "character",
+    "cost": 4,
+    "archetypes": [
+      "Fluttershy"
+    ],
+    "inspiration": 5,
+    "subtypes": [
+      "Fluttershy",
+      "Pegasus"
+    ]
+  },
+  "SD01B-U02": {
+    "id": "SD01B-U02",
+    "set": "SD01B",
+    "rarity": "U",
+    "name": "Fluttershy",
+    "type": "character",
+    "cost": 3,
+    "inspiration": 5,
+    "subtypes": [
+      "Fluttershy",
+      "Pegasus"
+    ]
+  },
+  "SD01B-U03": {
+    "id": "SD01B-U03",
+    "set": "SD01B",
+    "rarity": "U",
+    "name": "Philomena",
+    "type": "character",
+    "cost": 4,
+    "inspiration": 6,
+    "subtypes": [
+      "Pet",
+      "Phoenix",
+      "Philomena"
+    ]
+  },
+  "SD01B-U04": {
+    "id": "SD01B-U04",
+    "set": "SD01B",
+    "rarity": "U",
+    "name": "Angel",
+    "type": "character",
+    "cost": 2,
+    "archetypes": [
+      "Fluttershy"
+    ],
+    "inspiration": 3,
+    "subtypes": [
+      "Angel",
+      "Rabbit",
+      "Pet"
+    ]
+  },
+  "SD01C-C01": {
+    "id": "SD01C-C01",
+    "set": "SD01C",
+    "rarity": "C",
+    "name": "Pinkie Pie",
+    "type": "character",
+    "cost": 2,
+    "archetypes": [
+      "Pinkie Pie"
+    ],
+    "inspiration": 3,
+    "subtypes": [
+      "Earth Pony",
+      "Pinkie Pie"
+    ]
+  },
+  "SD01C-C02": {
+    "id": "SD01C-C02",
+    "set": "SD01C",
+    "rarity": "C",
+    "name": "Pinkie Pie",
+    "type": "character",
+    "cost": 6,
+    "inspiration": 8,
+    "subtypes": [
+      "Earth Pony",
+      "Pinkie Pie"
+    ]
+  },
+  "SD01C-C03": {
+    "id": "SD01C-C03",
+    "set": "SD01C",
+    "rarity": "C",
+    "name": "Mrs. Cake",
+    "type": "character",
+    "cost": 4,
+    "inspiration": 6,
+    "subtypes": [
+      "Earth Pony",
+      "Mrs. Cake"
+    ]
+  },
+  "SD01C-C04": {
+    "id": "SD01C-C04",
+    "set": "SD01C",
+    "rarity": "C",
+    "name": "Gummy",
+    "type": "character",
+    "cost": 3,
+    "inspiration": 5,
+    "subtypes": [
+      "Gummy",
+      "Pet",
+      "Crocodile"
+    ]
+  },
+  "SD01C-C05": {
+    "id": "SD01C-C05",
+    "set": "SD01C",
+    "rarity": "C",
+    "name": "Gummy",
+    "type": "character",
+    "cost": 1,
+    "inspiration": 2,
+    "subtypes": [
+      "Crocodile",
+      "Pet",
+      "Gummy"
+    ]
+  },
+  "SD01C-C06": {
+    "id": "SD01C-C06",
+    "set": "SD01C",
+    "rarity": "C",
+    "name": "Feeling Pinkie Keen",
+    "type": "story"
+  },
+  "SD01C-C07": {
+    "id": "SD01C-C07",
+    "set": "SD01C",
+    "rarity": "C",
+    "name": "Feeling Pinkie Keen",
+    "type": "story"
+  },
+  "SD01C-C08": {
+    "id": "SD01C-C08",
+    "set": "SD01C",
+    "rarity": "C",
+    "name": "Feeling Pinkie Keen",
+    "type": "story"
+  },
+  "SD01C-C09": {
+    "id": "SD01C-C09",
+    "set": "SD01C",
+    "rarity": "C",
+    "name": "Feeling Pinkie Keen",
+    "type": "story"
+  },
+  "SD01C-SPR01": {
+    "id": "SD01C-SPR01",
+    "set": "SD01C",
+    "rarity": "SPR",
+    "name": "\"Blue Curse\"",
+    "type": "event",
+    "cost": 2
+  },
+  "SD01C-SPR02": {
+    "id": "SD01C-SPR02",
+    "set": "SD01C",
+    "rarity": "SPR",
+    "name": "Instrument Set",
+    "type": "item",
+    "cost": 1
+  },
+  "SD01C-SPR03": {
+    "id": "SD01C-SPR03",
+    "set": "SD01C",
+    "rarity": "SPR",
+    "name": "Head Umbrella",
+    "type": "item",
+    "cost": 3
+  },
+  "SD01C-SPR04": {
+    "id": "SD01C-SPR04",
+    "set": "SD01C",
+    "rarity": "SPR",
+    "name": "Pinkie's Flying Balloon",
+    "type": "item",
+    "cost": 1,
+    "archetypes": [
+      "Pinkie Pie"
+    ]
+  },
+  "SD01C-SR01": {
+    "id": "SD01C-SR01",
+    "set": "SD01C",
+    "rarity": "SR",
+    "name": "Pinkie Pie",
+    "type": "character",
+    "cost": 2,
+    "inspiration": 3,
+    "subtypes": [
+      "Pinkie Pie",
+      "Earth Pony"
+    ]
+  },
+  "SD01C-SR02": {
+    "id": "SD01C-SR02",
+    "set": "SD01C",
+    "rarity": "SR",
+    "name": "Gummy",
+    "type": "character",
+    "cost": 1,
+    "inspiration": 1,
+    "subtypes": [
+      "Pet",
+      "Gummy",
+      "Crocodile"
+    ]
+  },
+  "SD01C-U01": {
+    "id": "SD01C-U01",
+    "set": "SD01C",
+    "rarity": "U",
+    "name": "Pinkie Pie",
+    "type": "character",
+    "cost": 2,
+    "inspiration": 4,
+    "subtypes": [
+      "Earth Pony",
+      "Pinkie Pie"
+    ]
+  },
+  "SD01C-U02": {
+    "id": "SD01C-U02",
+    "set": "SD01C",
+    "rarity": "U",
+    "name": "Pinkie Pie",
+    "type": "character",
+    "cost": 3,
+    "inspiration": 4,
+    "subtypes": [
+      "Pinkie Pie",
+      "Earth Pony"
+    ]
+  },
+  "SD01C-U03": {
+    "id": "SD01C-U03",
+    "set": "SD01C",
+    "rarity": "U",
+    "name": "Mrs. Cake",
+    "type": "character",
+    "cost": 4,
+    "inspiration": 5,
+    "subtypes": [
+      "Mrs. Cake",
+      "Earth Pony"
+    ]
+  },
+  "SD01C-U04": {
+    "id": "SD01C-U04",
+    "set": "SD01C",
+    "rarity": "U",
+    "name": "Gummy",
+    "type": "character",
+    "cost": 3,
+    "inspiration": 4,
+    "subtypes": [
+      "Pet",
+      "Gummy",
+      "Crocodile"
+    ]
+  },
+  "SD01D-C01": {
+    "id": "SD01D-C01",
+    "set": "SD01D",
+    "rarity": "C",
+    "name": "Applejack",
+    "type": "character",
+    "cost": 2,
+    "inspiration": 2,
+    "subtypes": [
+      "Earth Pony",
+      "Applejack"
+    ]
+  },
+  "SD01D-C02": {
+    "id": "SD01D-C02",
+    "set": "SD01D",
+    "rarity": "C",
+    "name": "Applejack",
+    "type": "character",
+    "cost": 5,
+    "inspiration": 7,
+    "subtypes": [
+      "Earth Pony",
+      "Applejack"
+    ]
+  },
+  "SD01D-C03": {
+    "id": "SD01D-C03",
+    "set": "SD01D",
+    "rarity": "C",
+    "name": "Apple Bloom",
+    "type": "character",
+    "cost": 3,
+    "inspiration": 5,
+    "subtypes": [
+      "Earth Pony",
+      "Apple Bloom"
+    ]
+  },
+  "SD01D-C04": {
+    "id": "SD01D-C04",
+    "set": "SD01D",
+    "rarity": "C",
+    "name": "Big Mcintosh",
+    "type": "character",
+    "cost": 4,
+    "inspiration": 6,
+    "subtypes": [
+      "Earth Pony",
+      "Big Mcintosh"
+    ]
+  },
+  "SD01D-C05": {
+    "id": "SD01D-C05",
+    "set": "SD01D",
+    "rarity": "C",
+    "name": "Winona",
+    "type": "character",
+    "cost": 1,
+    "inspiration": 2,
+    "subtypes": [
+      "Dog",
+      "Winona",
+      "Pet"
+    ]
+  },
+  "SD01D-C06": {
+    "id": "SD01D-C06",
+    "set": "SD01D",
+    "rarity": "C",
+    "name": "Applebuck Season",
+    "type": "story"
+  },
+  "SD01D-C07": {
+    "id": "SD01D-C07",
+    "set": "SD01D",
+    "rarity": "C",
+    "name": "Applebuck Season",
+    "type": "story"
+  },
+  "SD01D-C08": {
+    "id": "SD01D-C08",
+    "set": "SD01D",
+    "rarity": "C",
+    "name": "Applebuck Season",
+    "type": "story"
+  },
+  "SD01D-C09": {
+    "id": "SD01D-C09",
+    "set": "SD01D",
+    "rarity": "C",
+    "name": "Applebuck Season",
+    "type": "story"
+  },
+  "SD01D-SPR01": {
+    "id": "SD01D-SPR01",
+    "set": "SD01D",
+    "rarity": "SPR",
+    "name": "Dye Advertisement",
+    "type": "event",
+    "cost": 2,
+    "archetypes": [
+      "Applejack"
+    ]
+  },
+  "SD01D-SPR02": {
+    "id": "SD01D-SPR02",
+    "set": "SD01D",
+    "rarity": "SPR",
+    "name": "Rope Trick",
+    "type": "event",
+    "cost": 3,
+    "archetypes": [
+      "Applejack"
+    ]
+  },
+  "SD01D-SPR03": {
+    "id": "SD01D-SPR03",
+    "set": "SD01D",
+    "rarity": "SPR",
+    "name": "Lullaby for Apple Tree",
+    "type": "event",
+    "cost": 2
+  },
+  "SD01D-SPR04": {
+    "id": "SD01D-SPR04",
+    "set": "SD01D",
+    "rarity": "SPR",
+    "name": "Apple Bucket",
+    "type": "item",
+    "cost": 3,
+    "archetypes": [
+      "Applejack"
+    ]
+  },
+  "SD01D-SR01": {
+    "id": "SD01D-SR01",
+    "set": "SD01D",
+    "rarity": "SR",
+    "name": "Applejack",
+    "type": "character",
+    "cost": 1,
+    "archetypes": [
+      "Applejack"
+    ],
+    "inspiration": 1,
+    "subtypes": [
+      "Applejack",
+      "Earth Pony"
+    ]
+  },
+  "SD01D-SR02": {
+    "id": "SD01D-SR02",
+    "set": "SD01D",
+    "rarity": "SR",
+    "name": "Winona",
+    "type": "character",
+    "cost": 1,
+    "archetypes": [
+      "Applejack"
+    ],
+    "inspiration": 1,
+    "subtypes": [
+      "Pet",
+      "Winona",
+      "Dog"
+    ]
+  },
+  "SD01D-U01": {
+    "id": "SD01D-U01",
+    "set": "SD01D",
+    "rarity": "U",
+    "name": "Applejack",
+    "type": "character",
+    "cost": 3,
+    "inspiration": 4,
+    "subtypes": [
+      "Applejack",
+      "Earth Pony"
+    ]
+  },
+  "SD01D-U02": {
+    "id": "SD01D-U02",
+    "set": "SD01D",
+    "rarity": "U",
+    "name": "Applejack",
+    "type": "character",
+    "cost": 4,
+    "inspiration": 6,
+    "subtypes": [
+      "Earth Pony",
+      "Applejack"
+    ]
+  },
+  "SD01D-U03": {
+    "id": "SD01D-U03",
+    "set": "SD01D",
+    "rarity": "U",
+    "name": "Apple Bloom",
+    "type": "character",
+    "cost": 2,
+    "archetypes": [
+      "Applejack"
+    ],
+    "inspiration": 3,
+    "subtypes": [
+      "Earth Pony",
+      "Apple Bloom"
+    ]
+  },
+  "SD01D-U04": {
+    "id": "SD01D-U04",
+    "set": "SD01D",
+    "rarity": "U",
+    "name": "Winona",
+    "type": "character",
+    "cost": 3,
+    "inspiration": 4,
+    "subtypes": [
+      "Winona",
+      "Dog",
+      "Pet"
+    ]
+  },
+  "SD01E-C01": {
+    "id": "SD01E-C01",
+    "set": "SD01E",
+    "rarity": "C",
+    "name": "Rainbow Dash",
+    "type": "character",
+    "cost": 1,
+    "inspiration": 1,
+    "subtypes": [
+      "Pegasus",
+      "Rainbow Dash"
+    ]
+  },
+  "SD01E-C02": {
+    "id": "SD01E-C02",
+    "set": "SD01E",
+    "rarity": "C",
+    "name": "Rainbow Dash",
+    "type": "character",
+    "cost": 4,
+    "archetypes": [
+      "Rainbow Dash"
+    ],
+    "inspiration": 6,
+    "subtypes": [
+      "Pegasus",
+      "Rainbow Dash"
+    ]
+  },
+  "SD01E-C03": {
+    "id": "SD01E-C03",
+    "set": "SD01E",
+    "rarity": "C",
+    "name": "Rainbow Dash",
+    "type": "character",
+    "cost": 2,
+    "inspiration": 4,
+    "subtypes": [
+      "Pegasus",
+      "Rainbow Dash"
+    ]
+  },
+  "SD01E-C04": {
+    "id": "SD01E-C04",
+    "set": "SD01E",
+    "rarity": "C",
+    "name": "Scootaloo",
+    "type": "character",
+    "cost": 3,
+    "inspiration": 5,
+    "subtypes": [
+      "Pegasus",
+      "Scootaloo"
+    ]
+  },
+  "SD01E-C05": {
+    "id": "SD01E-C05",
+    "set": "SD01E",
+    "rarity": "C",
+    "name": "Tank",
+    "type": "character",
+    "cost": 1,
+    "inspiration": 2,
+    "subtypes": [
+      "Pet",
+      "Tank",
+      "Turtle"
+    ]
+  },
+  "SD01E-C06": {
+    "id": "SD01E-C06",
+    "set": "SD01E",
+    "rarity": "C",
+    "name": "The Best Young Flyer",
+    "type": "story"
+  },
+  "SD01E-C07": {
+    "id": "SD01E-C07",
+    "set": "SD01E",
+    "rarity": "C",
+    "name": "The Best Young Flyer",
+    "type": "story"
+  },
+  "SD01E-C08": {
+    "id": "SD01E-C08",
+    "set": "SD01E",
+    "rarity": "C",
+    "name": "The Best Young Flyer",
+    "type": "story"
+  },
+  "SD01E-C09": {
+    "id": "SD01E-C09",
+    "set": "SD01E",
+    "rarity": "C",
+    "name": "The Best Young Flyer",
+    "type": "story"
+  },
+  "SD01E-SPR01": {
+    "id": "SD01E-SPR01",
+    "set": "SD01E",
+    "rarity": "SPR",
+    "name": "Hoofshake Buzzer!",
+    "type": "event",
+    "cost": 2,
+    "archetypes": [
+      "Rainbow Dash"
+    ]
+  },
+  "SD01E-SPR02": {
+    "id": "SD01E-SPR02",
+    "set": "SD01E",
+    "rarity": "SPR",
+    "name": "Rushing Rescue",
+    "type": "event",
+    "cost": 2,
+    "archetypes": [
+      "Rainbow Dash"
+    ]
+  },
+  "SD01E-SPR03": {
+    "id": "SD01E-SPR03",
+    "set": "SD01E",
+    "rarity": "SPR",
+    "name": "Training Accident",
+    "type": "event",
+    "cost": 2
+  },
+  "SD01E-SPR04": {
+    "id": "SD01E-SPR04",
+    "set": "SD01E",
+    "rarity": "SPR",
+    "name": "Prank Sneeze Powder",
+    "type": "item",
+    "cost": 3
+  },
+  "SD01E-SR01": {
+    "id": "SD01E-SR01",
+    "set": "SD01E",
+    "rarity": "SR",
+    "name": "Rainbow Dash",
+    "type": "character",
+    "cost": 4,
+    "archetypes": [
+      "Rainbow Dash"
+    ],
+    "inspiration": 5,
+    "subtypes": [
+      "Pegasus",
+      "Rainbow Dash"
+    ]
+  },
+  "SD01E-SR02": {
+    "id": "SD01E-SR02",
+    "set": "SD01E",
+    "rarity": "SR",
+    "name": "Tank",
+    "type": "character",
+    "cost": 2,
+    "archetypes": [
+      "Rainbow Dash"
+    ],
+    "inspiration": 3,
+    "subtypes": [
+      "Pet",
+      "Tank",
+      "Turtle"
+    ]
+  },
+  "SD01E-U01": {
+    "id": "SD01E-U01",
+    "set": "SD01E",
+    "rarity": "U",
+    "name": "Rainbow Dash",
+    "type": "character",
+    "cost": 2,
+    "inspiration": 3,
+    "subtypes": [
+      "Pegasus",
+      "Rainbow Dash"
+    ]
+  },
+  "SD01E-U02": {
+    "id": "SD01E-U02",
+    "set": "SD01E",
+    "rarity": "U",
+    "name": "Rainbow Dash",
+    "type": "character",
+    "cost": 3,
+    "inspiration": 5,
+    "subtypes": [
+      "Pegasus",
+      "Rainbow Dash"
+    ]
+  },
+  "SD01E-U03": {
+    "id": "SD01E-U03",
+    "set": "SD01E",
+    "rarity": "U",
+    "name": "Scootaloo",
+    "type": "character",
+    "cost": 2,
+    "inspiration": 4,
+    "subtypes": [
+      "Pegasus",
+      "Scootaloo"
+    ]
+  },
+  "SD01E-U04": {
+    "id": "SD01E-U04",
+    "set": "SD01E",
+    "rarity": "U",
+    "name": "Tank",
+    "type": "character",
+    "cost": 3,
+    "archetypes": [
+      "Rainbow Dash"
+    ],
+    "inspiration": 4,
+    "subtypes": [
+      "Turtle",
+      "tank",
+      "Pet"
+    ]
+  },
+  "SD01F-C01": {
+    "id": "SD01F-C01",
+    "set": "SD01F",
+    "rarity": "C",
+    "name": "Rarity",
+    "type": "character",
+    "cost": 4,
+    "inspiration": 5,
+    "subtypes": [
+      "Rarity",
+      "Unicorn"
+    ]
+  },
+  "SD01F-C02": {
+    "id": "SD01F-C02",
+    "set": "SD01F",
+    "rarity": "C",
+    "name": "Rarity",
+    "type": "character",
+    "cost": 5,
+    "inspiration": 7,
+    "subtypes": [
+      "Unicorn",
+      "Rarity"
+    ]
+  },
+  "SD01F-C03": {
+    "id": "SD01F-C03",
+    "set": "SD01F",
+    "rarity": "C",
+    "name": "Rarity",
+    "type": "character",
+    "cost": 1,
+    "inspiration": 2,
+    "subtypes": [
+      "Unicorn",
+      "Rarity"
+    ]
+  },
+  "SD01F-C04": {
+    "id": "SD01F-C04",
+    "set": "SD01F",
+    "rarity": "C",
+    "name": "Sweetie Belle",
+    "type": "character",
+    "cost": 1,
+    "inspiration": 2,
+    "subtypes": [
+      "Unicorn",
+      "Sweetie Belle"
+    ]
+  },
+  "SD01F-C05": {
+    "id": "SD01F-C05",
+    "set": "SD01F",
+    "rarity": "C",
+    "name": "Opal",
+    "type": "character",
+    "cost": 2,
+    "inspiration": 4,
+    "subtypes": [
+      "Pet",
+      "Cat",
+      "Opal"
+    ]
+  },
+  "SD01F-C06": {
+    "id": "SD01F-C06",
+    "set": "SD01F",
+    "rarity": "C",
+    "name": "A Dog and Pony Show",
+    "type": "story"
+  },
+  "SD01F-C07": {
+    "id": "SD01F-C07",
+    "set": "SD01F",
+    "rarity": "C",
+    "name": "A Dog and Pony Show",
+    "type": "story"
+  },
+  "SD01F-C08": {
+    "id": "SD01F-C08",
+    "set": "SD01F",
+    "rarity": "C",
+    "name": "A Dog and Pony Show",
+    "type": "story"
+  },
+  "SD01F-C09": {
+    "id": "SD01F-C09",
+    "set": "SD01F",
+    "rarity": "C",
+    "name": "A Dog and Pony Show",
+    "type": "story"
+  },
+  "SD01F-SPR01": {
+    "id": "SD01F-SPR01",
+    "set": "SD01F",
+    "rarity": "SPR",
+    "name": "Tailor-made",
+    "type": "event",
+    "cost": 2,
+    "archetypes": [
+      "Rarity"
+    ]
+  },
+  "SD01F-SPR02": {
+    "id": "SD01F-SPR02",
+    "set": "SD01F",
+    "rarity": "SPR",
+    "name": "Dress for Competition",
+    "type": "event",
+    "cost": 1,
+    "archetypes": [
+      "Rarity"
+    ]
+  },
+  "SD01F-SPR03": {
+    "id": "SD01F-SPR03",
+    "set": "SD01F",
+    "rarity": "SPR",
+    "name": "Steam Therapy",
+    "type": "event",
+    "cost": 2
+  },
+  "SD01F-SPR04": {
+    "id": "SD01F-SPR04",
+    "set": "SD01F",
+    "rarity": "SPR",
+    "name": "Dress Form",
+    "type": "item",
+    "cost": 1
+  },
+  "SD01F-SR01": {
+    "id": "SD01F-SR01",
+    "set": "SD01F",
+    "rarity": "SR",
+    "name": "Rarity",
+    "type": "character",
+    "cost": 3,
+    "archetypes": [
+      "Rarity"
+    ],
+    "inspiration": 4,
+    "subtypes": [
+      "Rarity",
+      "Unicorn"
+    ]
+  },
+  "SD01F-SR02": {
+    "id": "SD01F-SR02",
+    "set": "SD01F",
+    "rarity": "SR",
+    "name": "Opal",
+    "type": "character",
+    "cost": 3,
+    "archetypes": [
+      "Rarity"
+    ],
+    "inspiration": 4,
+    "subtypes": [
+      "Cat",
+      "Pet",
+      "Opal"
+    ]
+  },
+  "SD01F-U01": {
+    "id": "SD01F-U01",
+    "set": "SD01F",
+    "rarity": "U",
+    "name": "Rarity",
+    "type": "character",
+    "cost": 2,
+    "inspiration": 3,
+    "subtypes": [
+      "Unicorn",
+      "Rarity"
+    ]
+  },
+  "SD01F-U02": {
+    "id": "SD01F-U02",
+    "set": "SD01F",
+    "rarity": "U",
+    "name": "Rarity",
+    "type": "character",
+    "cost": 4,
+    "inspiration": 6,
+    "subtypes": [
+      "Unicorn",
+      "Rarity"
+    ]
+  },
+  "SD01F-U03": {
+    "id": "SD01F-U03",
+    "set": "SD01F",
+    "rarity": "U",
+    "name": "Sweetie Belle",
+    "type": "character",
+    "cost": 3,
+    "inspiration": 4,
+    "subtypes": [
+      "Unicorn",
+      "Sweetie Belle"
+    ]
+  },
+  "SD01F-U04": {
+    "id": "SD01F-U04",
+    "set": "SD01F",
+    "rarity": "U",
+    "name": "Opal",
+    "type": "character",
+    "cost": 2,
+    "archetypes": [
+      "Rarity"
+    ],
+    "inspiration": 3,
+    "subtypes": [
+      "Pet",
+      "Opal",
+      "Cat"
+    ]
+  }
+};

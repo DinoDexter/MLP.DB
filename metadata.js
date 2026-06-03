@@ -275,10 +275,14 @@
   }
 
   function loadState() {
+    const embeddedCards = normalizeSavedCards(normalizeMetadataSource(window.CARD_METADATA));
     try {
       const saved = JSON.parse(localStorage.getItem(STORAGE_KEY) || "{}");
       const loaded = {
-        cards: saved.cards || {},
+        cards: {
+          ...embeddedCards,
+          ...(saved.cards || {}),
+        },
         recent: {
           names: saved.recent?.names || [],
           subtypes: saved.recent?.subtypes || [],
@@ -287,8 +291,13 @@
       loaded.cards = normalizeSavedCards(loaded.cards);
       return loaded;
     } catch {
-      return { cards: {}, recent: { names: [], subtypes: [] } };
+      return { cards: embeddedCards, recent: { names: [], subtypes: [] } };
     }
+  }
+
+  function normalizeMetadataSource(source) {
+    if (!source) return {};
+    return source.cards || source;
   }
 
   function saveState() {

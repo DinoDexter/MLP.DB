@@ -17,6 +17,7 @@
   };
   const DECK_TYPE_ORDER = ["main character", "character", "event", "item", "story", "scene"];
   const DECK_TYPE_LABELS = {
+    "main deck": "Main Deck",
     "main character": "Main Character",
     character: "Character",
     event: "Event",
@@ -26,7 +27,7 @@
   };
   const MAIN_DECK_TYPES = new Set(["character", "event", "item"]);
   const DECK_VIEW_PILES = [
-    { key: "main-deck", label: "Main Deck", types: ["character", "event", "item"] },
+    { key: "main-deck", label: "Main Deck", types: ["character", "event", "item"], includeUnknown: true },
     { key: "main-character", label: "Main Character", types: ["main character"] },
     { key: "story", label: "Story Deck", types: ["story"] },
     { key: "scene", label: "Scene Deck", types: ["scene"] },
@@ -557,7 +558,7 @@
     const entries = getDeckEntries();
     const total = entries.reduce((sum, entry) => sum + entry.qty, 0);
     const mainDeckTotal = entries
-      .filter((entry) => MAIN_DECK_TYPES.has(entry.card.type))
+      .filter((entry) => isMainDeckCard(entry.card))
       .reduce((sum, entry) => sum + entry.qty, 0);
     els.deckCount.textContent = String(total);
     els.mainDeckCount.textContent = String(mainDeckTotal);
@@ -641,7 +642,7 @@
   }
 
   function groupedDeckEntries(entries) {
-    return DECK_TYPE_ORDER.map((type) => {
+    const groups = DECK_TYPE_ORDER.map((type) => {
       const typeEntries = entries.filter((entry) => entry.card.type === type);
       return {
         type,
@@ -649,6 +650,26 @@
         total: typeEntries.reduce((sum, entry) => sum + entry.qty, 0),
       };
     }).filter((group) => group.entries.length > 0);
+
+    const unknownEntries = entries.filter((entry) => !DECK_TYPE_ORDER.includes(entry.card.type));
+    if (unknownEntries.length) {
+      groups.unshift({
+        type: "main deck",
+        entries: unknownEntries,
+        total: unknownEntries.reduce((sum, entry) => sum + entry.qty, 0),
+      });
+    }
+
+    return groups;
+  }
+
+  function isMainDeckCard(card) {
+    return MAIN_DECK_TYPES.has(card.type) || !DECK_TYPE_ORDER.includes(card.type);
+  }
+
+  function pileMatchesCard(pile, card) {
+    if (pile.includeUnknown && isMainDeckCard(card)) return true;
+    return pile.types.includes(card.type);
   }
 
   function canAddCard(card) {
@@ -710,7 +731,7 @@
 
     const fragment = document.createDocumentFragment();
     DECK_VIEW_PILES.forEach((pile) => {
-      const pileEntries = entries.filter((entry) => pile.types.includes(entry.card.type));
+      const pileEntries = entries.filter((entry) => pileMatchesCard(pile, entry.card));
       if (!pileEntries.length) return;
 
       const section = document.createElement("section");
@@ -761,7 +782,7 @@
     }
     const entries = getDeckEntries();
     const sections = DECK_VIEW_PILES.flatMap((pile) => {
-      const pileEntries = entries.filter((entry) => pile.types.includes(entry.card.type));
+      const pileEntries = entries.filter((entry) => pileMatchesCard(pile, entry.card));
       if (!pileEntries.length) return [];
       const lines = pileEntries.map(({ card, qty }) => `${qty}x ${card.id}: ${card.name}`);
       return [`=== ${pile.label} ===`, ...lines, ""];
@@ -888,7 +909,7 @@
     const sectionHeaderW = 180;
     const columns = 8;
     const piles = DECK_VIEW_PILES.map((pile) => {
-      const pileEntries = entries.filter((entry) => pile.types.includes(entry.card.type));
+      const pileEntries = entries.filter((entry) => pileMatchesCard(pile, entry.card));
       return {
         ...pile,
         entries: pileEntries,
@@ -1056,11 +1077,20 @@
   }
 
   function loadCardMetadata() {
+    const embedded = normalizeMetadataSource(window.CARD_METADATA);
     try {
-      return JSON.parse(localStorage.getItem(METADATA_KEY) || "{}").cards || {};
+      return {
+        ...embedded,
+        ...(JSON.parse(localStorage.getItem(METADATA_KEY) || "{}").cards || {}),
+      };
     } catch {
-      return {};
+      return embedded;
     }
+  }
+
+  function normalizeMetadataSource(source) {
+    if (!source) return {};
+    return source.cards || source;
   }
 
   function saveDeck() {
