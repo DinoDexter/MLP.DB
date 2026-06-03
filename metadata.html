@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MLPDB Metadata</title>
+    <link rel="stylesheet" href="metadata.css">
+  </head>
+  <body>
+    <main class="metadata-app">
+      <header class="topbar">
+        <div>
+          <h1>MLPDB Metadata</h1>
+          <p><span id="progressText">0 / 0</span> complete</p>
+        </div>
+        <div class="top-actions">
+          <a href="index.html">Deck Builder</a>
+          <button id="copyJsonBtn" type="button">Copy JSON</button>
+          <button id="downloadJsonBtn" type="button">Download JSON</button>
+        </div>
+      </header>
+
+      <section class="workspace">
+        <aside class="card-stage">
+          <div class="card-nav">
+            <button id="prevCardBtn" type="button">Previous</button>
+            <strong id="cardPosition">Card 1 of 1</strong>
+            <button id="nextCardBtn" type="button">Next</button>
+          </div>
+          <img id="cardImage" alt="">
+          <div class="card-id-line">
+            <strong id="cardId">Card ID</strong>
+            <span id="rarityText">Rarity</span>
+          </div>
+        </aside>
+
+        <form class="metadata-form" id="metadataForm">
+          <section class="form-section">
+            <h2>Basics</h2>
+            <label>
+              <span>Name</span>
+              <input id="nameInput" type="text" autocomplete="off">
+            </label>
+            <div class="suggestions" id="nameSuggestions" aria-label="Saved names"></div>
+
+            <div class="grid-two">
+              <label id="costField">
+                <span>Cost</span>
+                <select id="costSelect"></select>
+              </label>
+              <label>
+                <span>Type</span>
+                <select id="typeSelect"></select>
+              </label>
+            </div>
+          </section>
+
+          <section class="form-section" id="archetypeSection">
+            <h2>Archetype</h2>
+            <div class="check-grid" id="archetypeChecks"></div>
+          </section>
+
+          <section class="form-section character-fields" id="characterFields">
+            <h2>Character Details</h2>
+            <label>
+              <span>Inspiration</span>
+              <select id="inspirationSelect"></select>
+            </label>
+            <label>
+              <span>Subtype</span>
+              <input id="subtypeInput" type="text" autocomplete="off" placeholder="Add subtype and press Enter">
+            </label>
+            <div class="pill-list" id="selectedSubtypes"></div>
+            <div class="suggestions" id="subtypeSuggestions" aria-label="Saved subtypes"></div>
+          </section>
+
+          <footer class="form-actions">
+            <button class="secondary" id="markIncompleteBtn" type="button">Mark Incomplete</button>
+            <button id="saveNextBtn" type="submit">Save & Next</button>
+          </footer>
+        </form>
+      </section>
+    </main>
+
+    <dialog id="jsonDialog">
+      <form method="dialog">
+        <div class="dialog-header">
+          <h2>Metadata JSON</h2>
+          <button value="close" type="submit">Close</button>
+        </div>
+        <textarea id="jsonOutput" readonly></textarea>
+      </form>
+    </dialog>
+
+    <script src="cards-data.js"></script>
+    <script src="metadata.js"></script>
+  </body>
+</html>

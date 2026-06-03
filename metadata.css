@@ -1,0 +1,273 @@
+:root {
+  color-scheme: dark;
+  --page: #050506;
+  --panel: #11161f;
+  --panel-2: #171d28;
+  --line: #344052;
+  --ink: #f5f7fb;
+  --muted: #9ba7bc;
+  --accent: #2f7d52;
+  --accent-2: #2c246d;
+  --danger: #a83743;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: var(--page);
+  color: var(--ink);
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+button,
+a {
+  min-height: 38px;
+  border: 1px solid var(--line);
+  border-radius: 2px;
+  background: var(--accent-2);
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 13px;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+button.secondary {
+  background: var(--panel-2);
+}
+
+.metadata-app {
+  width: min(1500px, calc(100vw - 28px));
+  margin: 0 auto;
+  padding: 16px 0 24px;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  border-bottom: 1px solid var(--line);
+  padding: 0 0 14px;
+}
+
+.topbar h1 {
+  margin: 0;
+  font-style: italic;
+}
+
+.topbar p {
+  margin: 4px 0 0;
+  color: var(--muted);
+}
+
+.top-actions,
+.form-actions,
+.card-nav {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.workspace {
+  display: grid;
+  grid-template-columns: 520px minmax(0, 1fr);
+  gap: 18px;
+  padding-top: 18px;
+}
+
+.card-stage,
+.metadata-form,
+dialog {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 2px;
+}
+
+.card-stage {
+  padding: 14px;
+}
+
+.card-nav {
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.card-stage img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 595 / 832;
+  object-fit: contain;
+  background: #000;
+  border: 1px solid var(--line);
+}
+
+.card-id-line {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding-top: 12px;
+  color: var(--muted);
+}
+
+.card-id-line strong {
+  color: var(--ink);
+}
+
+.metadata-form {
+  padding: 14px;
+  display: grid;
+  gap: 14px;
+}
+
+.form-section {
+  display: grid;
+  gap: 10px;
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.02);
+  padding: 12px;
+}
+
+.form-section h2 {
+  margin: 0;
+  font-size: 18px;
+}
+
+label {
+  display: grid;
+  gap: 5px;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  min-height: 40px;
+  border: 1px solid var(--line);
+  border-radius: 2px;
+  background: #07090d;
+  color: var(--ink);
+  padding: 8px 10px;
+}
+
+.grid-two {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.check-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.check-grid label,
+.suggestions button,
+.pill {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 36px;
+  border: 1px solid var(--line);
+  background: var(--panel-2);
+  color: var(--ink);
+  padding: 7px 9px;
+  text-transform: none;
+  font-size: 14px;
+}
+
+.check-grid input {
+  width: auto;
+  min-height: auto;
+}
+
+.suggestions,
+.pill-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+}
+
+.suggestions:empty,
+.pill-list:empty {
+  display: none;
+}
+
+.suggestions button {
+  min-height: 30px;
+  background: #1d2431;
+  color: var(--muted);
+}
+
+.pill {
+  background: #183223;
+}
+
+.pill button {
+  min-height: auto;
+  border: 0;
+  background: transparent;
+  color: #fff;
+  padding: 0;
+}
+
+.character-fields[hidden] {
+  display: none;
+}
+
+[hidden] {
+  display: none !important;
+}
+
+.form-actions {
+  justify-content: flex-end;
+}
+
+#markIncompleteBtn {
+  background: var(--danger);
+}
+
+dialog {
+  width: min(820px, calc(100vw - 32px));
+  padding: 14px;
+  color: var(--ink);
+}
+
+dialog::backdrop {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.dialog-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.dialog-header h2 {
+  margin: 0;
+}
+
+textarea {
+  min-height: 460px;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  resize: vertical;
+}
