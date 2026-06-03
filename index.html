@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MLP.DB</title>
+    <link rel="stylesheet" href="styles.css?v=unknown-type-fallback">
+  </head>
+  <body>
+    <div class="app-frame" id="appFrame">
+      <div class="app-shell" id="appShell">
+        <header class="topbar">
+          <div>
+            <h1>MLP.DB</h1>
+            <p id="catalogSummary">Loading cards...</p>
+          </div>
+        </header>
+
+        <nav class="app-tabs" aria-label="Pages">
+          <div class="tab-group">
+            <button class="tab-button active" type="button" data-tab="builder">Deckbuilder</button>
+            <button class="tab-button" type="button" data-tab="export">Export</button>
+            <button class="tab-button" type="button" data-tab="view">Deck View</button>
+          </div>
+          <div class="tab-actions">
+            <button class="secondary clear-tab-button" id="importClipboardBtn" type="button" title="Import text export from clipboard">Import</button>
+            <button class="secondary clear-tab-button" id="clearDeckBtn" type="button" title="Clear deck">Clear</button>
+          </div>
+        </nav>
+
+        <main class="workspace tab-page active" id="builderPage" data-page="builder">
+          <section class="catalog-panel" aria-label="Card catalog">
+            <div class="filters">
+              <label class="multi-filter">
+                <span>Cost</span>
+                <button class="filter-menu-button" id="costFilterButton" type="button">Cost</button>
+                <div class="filter-menu" id="costFilter"></div>
+              </label>
+
+              <label class="multi-filter">
+                <span>Type</span>
+                <button class="filter-menu-button" id="typeFilterButton" type="button">Type</button>
+                <div class="filter-menu" id="typeFilter"></div>
+              </label>
+
+              <label class="multi-filter">
+                <span>Archetype</span>
+                <button class="filter-menu-button" id="archetypeFilterButton" type="button">Archetype</button>
+                <div class="filter-menu" id="archetypeFilter"></div>
+              </label>
+
+              <label class="multi-filter">
+                <span>Rarity</span>
+                <button class="filter-menu-button" id="rarityFilterButton" type="button">Rarity</button>
+                <div class="filter-menu" id="rarityFilter"></div>
+              </label>
+
+              <label class="multi-filter">
+                <span>Set</span>
+                <button class="filter-menu-button" id="setFilterButton" type="button">Set</button>
+                <div class="filter-menu" id="setFilter"></div>
+              </label>
+
+              <label>
+                <span>Sort</span>
+                <select id="sortSelect">
+                  <option value="id">Sort: Card ID</option>
+                  <option value="cost">Sort: Cost</option>
+                  <option value="rarity">Sort: Rarity</option>
+                  <option value="set">Sort: Set</option>
+                  <option value="type">Sort: Type</option>
+                </select>
+              </label>
+            </div>
+
+            <div class="results-bar">
+              <strong id="resultsCount">0 cards</strong>
+              <label class="search-field">
+                <span>Search</span>
+                <input id="searchInput" type="search" placeholder="Search">
+              </label>
+              <div class="results-actions">
+                <button class="text-button" id="resetFiltersBtn" type="button">Reset filters</button>
+                <div class="pagination" aria-label="Card pages">
+                  <button class="secondary" id="prevPageBtn" type="button">Prev</button>
+                  <button class="page-info-button" id="pageInfo" type="button">1/1</button>
+                  <button class="secondary" id="nextPageBtn" type="button">Next</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-grid" id="cardGrid" aria-live="polite"></div>
+          </section>
+
+          <aside class="deck-panel" aria-label="Current deck">
+            <div class="deck-header">
+              <div class="deck-header-top">
+                <div class="deck-title-stack">
+                  <input id="deckNameInput" class="deck-title-input" type="text" value="Untitled Deck" aria-label="Deck name">
+                  <input id="deckAuthorInput" class="deck-author-input" type="text" value="by anonymous" aria-label="Deck author">
+                </div>
+                <div class="deck-count-stack">
+                  <p class="deck-count-label"><span id="deckCount">0</span> cards</p>
+                  <p class="deck-main-count-label">Main Deck <span id="mainDeckCount">0</span></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="deck-list" id="deckList"></div>
+          </aside>
+        </main>
+
+        <section class="export-page tab-page" id="exportPage" data-page="export" aria-label="Deck export">
+          <div class="export-panel deck-settings-panel">
+            <h2>Deck Settings</h2>
+            <label>
+              <span>Deck Name</span>
+              <input id="exportDeckNameInput" type="text" value="Untitled Deck">
+            </label>
+            <label>
+              <span>Author</span>
+              <input id="authorInput" type="text" placeholder="Your name">
+            </label>
+          </div>
+
+          <div class="export-stack">
+            <div class="export-panel">
+              <h2>Sharable Permalink</h2>
+              <input id="permalinkInput" type="text" readonly>
+              <button id="copyLinkBtn" type="button">Copy Link</button>
+            </div>
+
+            <div class="export-panel">
+              <h2>Image Export</h2>
+              <p>Download a sharable image of your deck.</p>
+              <button class="download-button" id="exportImageBtn" type="button">Download Deck Screenshot</button>
+            </div>
+          </div>
+
+          <div class="export-panel text-export-panel">
+            <h2>Text Export</h2>
+            <div class="export-format-tabs" aria-label="Text export format">
+              <button class="active" type="button" data-export-format="text">Text</button>
+              <button type="button" data-export-format="tts">TTS</button>
+            </div>
+            <textarea id="exportText" readonly></textarea>
+            <div class="export-actions">
+              <button class="secondary" id="copyIdsBtn" type="button">Copy Text</button>
+              <button class="secondary" id="downloadIdsBtn" type="button">Download .txt</button>
+            </div>
+            <p class="export-status" id="exportStatus" aria-live="polite"></p>
+          </div>
+        </section>
+
+        <section class="deck-view-page tab-page" id="deckViewPage" data-page="view" aria-label="Deck image view">
+          <div class="deck-view-title">
+            <h2 id="deckViewName">Untitled Deck</h2>
+            <p id="deckViewAuthor"></p>
+          </div>
+          <div class="deck-view-board">
+            <div class="deck-image-grid" id="deckImageGrid"></div>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <dialog id="exportDialog">
+      <form method="dialog">
+        <div class="dialog-header">
+          <h2 id="dialogTitle">Export</h2>
+          <button class="icon-button" value="close" type="submit" aria-label="Close">x</button>
+        </div>
+        <textarea id="dialogExportText" readonly></textarea>
+        <div class="dialog-actions">
+          <button class="secondary" id="copyDialogBtn" type="button">Copy</button>
+          <button value="close" type="submit">Done</button>
+        </div>
+      </form>
+    </dialog>
+
+    <dialog id="importDialog">
+      <form method="dialog">
+        <div class="dialog-header">
+          <h2>Import Deck</h2>
+          <button class="icon-button" value="close" type="submit" aria-label="Close">x</button>
+        </div>
+        <textarea id="importText" placeholder="Paste a deck export here"></textarea>
+        <div class="dialog-actions">
+          <button class="secondary" value="close" type="submit">Cancel</button>
+          <button id="applyImportBtn" type="button">Import</button>
+        </div>
+      </form>
+    </dialog>
+
+    <dialog id="cardPreviewDialog" class="card-preview-dialog" aria-label="Card preview">
+      <button class="preview-close" id="closePreviewBtn" type="button" aria-label="Close preview">x</button>
+      <img id="previewImage" alt="">
+    </dialog>
+
+    <script src="cards-data.js?v=found-scroll-fix"></script>
+    <script src="card-metadata.js?v=recovered-metadata"></script>
+    <script src="app.js?v=tts-compact-piles"></script>
+  </body>
+</html>
